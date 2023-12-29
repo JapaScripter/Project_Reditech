@@ -1,5 +1,11 @@
   /*|All|*/
+  @font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Regular.ttf') format('truetype');
+  }
   * {
+    /*font*/
+    font-family: 'Inter';
     /*display*/
     margin: 0;
     padding: 0;
@@ -7,10 +13,6 @@
   *::selection {
     /*display*/
     background: rgba(255, 255, 255, 0.7);
-  }
-  @font-face {
-    font-family: 'Inter';
-    src: url('font/Inter-Regular.ttf') format('truetype');
   }
   /*|All|*/
 
@@ -54,7 +56,6 @@
   }
   .tt1sec1 {
     /*font*/
-    font-family: 'Inter';
     font-size: 30px;
     font-weight: 300;
     color: #0039A6;
@@ -63,7 +64,6 @@
   }
   .tx1sec1 {
     /*font*/
-    font-family: 'Inter';
     font-size: 20px;
     text-align: justify;
     /*display*/
@@ -103,7 +103,6 @@
     }
     .btsec1 {
       /*font*/
-      font-family: 'Inter';
       font-size: 15px;
       color: #FFFFFF;
       /*display*/
@@ -128,7 +127,6 @@
     }
     .btsec2 {
       /*font*/
-      font-family: 'Inter';
       font-size: 15px;
       color: #FFFFFF;
       /*display*/
@@ -153,7 +151,6 @@
     }
     .btsec3 {
       /*font*/
-      font-family: 'Inter';
       font-size: 15px;
       color: #FFFFFF;
       /*display*/
@@ -178,7 +175,6 @@
     }
     .btsec4 {
       /*font*/
-      font-family: 'Inter';
       font-size: 15px;
       color: #FFFFFF;
       /*display*/
@@ -203,7 +199,6 @@
     }
     .btsec5 {
       /*font*/
-      font-family: 'Inter';
       font-size: 15px;
       color: #FFFFFF;
       /*display*/

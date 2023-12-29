@@ -1,18 +1,20 @@
-/*|All|*/
-* {
-  /*display*/
-  margin: 0;
-  padding: 0;
-}
-*::selection {
-  /*display*/
-  background: rgba(255, 255, 255, 0.7);
-}
-@font-face {
-  font-family: 'Inter';
-  src: url('font/Inter-Regular.ttf') format('truetype');
-}
-/*|All|*/
+  /*|All|*/
+  @font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Regular.ttf') format('truetype');
+  }
+  * {
+    /*font*/
+    font-family: 'Inter';
+    /*display*/
+    margin: 0;
+    padding: 0;
+  }
+  *::selection {
+    /*display*/
+    background: rgba(255, 255, 255, 0.7);
+  }
+  /*|All|*/
 
 /*|Body|*/
 body {
@@ -61,7 +63,6 @@ body {
 }
 .tt1sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 30px;
   color: #1A4DAF;
   /*display*/
@@ -73,7 +74,6 @@ body {
 }
 .tx1sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   text-align: justify;
   /*display*/
@@ -85,7 +85,6 @@ body {
 }
 .ul1sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   text-align: justify;
   /*display*/
@@ -192,7 +191,6 @@ body {
 }
 .tt1sec2 {
   /*font*/
-  font-family: 'Inter';
   font-size: 30px;
   text-align: right;
   color: #1A4DAF;
@@ -205,7 +203,6 @@ body {
 }
 .tx1sec2 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   text-align: justify;
   /*display*/
@@ -275,7 +272,6 @@ body {
 }
 .tt1sec3 {
   /*font*/
-  font-family: 'Inter';
   font-size: 30px;
   color: #1A4DAF;
   /*display*/
@@ -287,7 +283,6 @@ body {
 }
 .tx1sec3 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   text-align: justify;
   /*display*/
@@ -392,7 +387,6 @@ body {
 }
 .tt1sec4 {
   /*font*/
-  font-family: 'Inter';
   font-size: 30px;
   text-align: right;
   color: #1A4DAF;
@@ -405,7 +399,6 @@ body {
 }
 .tx1sec4 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   text-align: justify;
   /*display*/
@@ -474,7 +467,6 @@ body {
 }
 .tt1sec5 {
   /*font*/
-  font-family: 'Inter';
   font-size: 30px;
   color: #1A4DAF;
   /*display*/
@@ -486,7 +478,6 @@ body {
 }
 .tx1sec5 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   text-align: justify;
   /*display*/
@@ -498,7 +489,6 @@ body {
 }
 .ul1sec5 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   text-align: justify;
   /*display*/
@@ -605,7 +595,6 @@ body {
 }
 .tt1sec6 {
   /*font*/
-  font-family: 'Inter';
   font-size: 30px;
   text-align: right;
   color: #1A4DAF;
@@ -618,7 +607,6 @@ body {
 }
 .tx1sec6 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   text-align: justify;
   /*display*/
@@ -688,7 +676,6 @@ body {
 }
 .tt1sec7 {
   /*font*/
-  font-family: 'Inter';
   font-size: 30px;
   color: #1A4DAF;
   /*display*/
@@ -700,7 +687,6 @@ body {
 }
 .tx1sec7 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   text-align: justify;
   /*display*/
@@ -712,7 +698,6 @@ body {
 }
 .ul1sec7 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   text-align: justify;
   /*display*/

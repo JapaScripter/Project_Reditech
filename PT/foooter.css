@@ -69,7 +69,6 @@
   }
   .tt1footer {
     /*font*/
-    font-family: 'Inter';
     font-size: 15px;
     /*display*/
     margin-right: 20vw;
@@ -148,7 +147,6 @@
   }
   .txfooter {
     /*font*/
-    font-family: DM-Sans;
     font-weight: 300;
     color: #000000;
     /*display*/

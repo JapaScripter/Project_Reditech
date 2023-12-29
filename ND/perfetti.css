@@ -1,5 +1,11 @@
   /*|All|*/
+  @font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Regular.ttf') format('truetype');
+  }
   * {
+    /*font*/
+    font-family: 'Inter';
     /*display*/
     margin: 0;
     padding: 0;
@@ -7,10 +13,6 @@
   *::selection {
     /*display*/
     background: rgba(255, 255, 255, 0.7);
-  }
-  @font-face {
-    font-family: 'Inter';
-    src: url('font/Inter-Regular.ttf') format('truetype');
   }
   /*|All|*/
 
@@ -48,7 +50,6 @@
   }
   .tt1sec1 {
     /*font*/
-    font-family: 'Inter';
     font-size: 30px;
     font-weight: 300;
     color: #0039A6;
@@ -65,7 +66,6 @@
   }
   .tx1sec1 {
     /*font*/
-    font-family: 'Inter';
     font-size: 20px;
     text-align: justify;
     /*display*/
@@ -73,7 +73,6 @@
   }
   .ul1sec1 {
     /*font*/
-    font-family: 'Inter';
     font-size: 20px;
     text-align: justify;
     /*display*/
@@ -83,7 +82,6 @@
   }
   .tx2sec1 {
     /*font*/
-    font-family: 'Inter';
     font-size: 20px;
     text-align: justify;
     /*display*/
@@ -91,7 +89,6 @@
   }
   .tt2sec1 {
     /*font*/
-    font-family: 'Inter';
     font-size: 20px;
     font-weight: 700;
     text-align: left;
@@ -101,7 +98,6 @@
   }
   .tx3sec1 {
     /*font*/
-    font-family: 'Inter';
     font-size: 20px;
     text-align: justify;
     /*display*/
@@ -109,7 +105,6 @@
   }
   .ul2sec1 {
     /*font*/
-    font-family: 'Inter';
     font-size: 20px;
     text-align: justify;
     /*display*/
@@ -119,7 +114,6 @@
   }
   .tx4sec1 {
     /*font*/
-    font-family: 'Inter';
     font-size: 20px;
     text-align: justify;
     /*display*/
@@ -152,7 +146,6 @@
     }
     .tt1sec1 {
       /*font*/
-      font-family: 'Inter';
       font-size: 20px;
       font-weight: 300;
       color: #0039A6;
@@ -169,7 +162,6 @@
     }
     .tx1sec1 {
       /*font*/
-      font-family: 'Inter';
       font-size: 20px;
       text-align: justify;
       /*display*/
@@ -177,7 +169,6 @@
     }
     .ul1sec1 {
       /*font*/
-      font-family: 'Inter';
       font-size: 20px;
       text-align: justify;
       /*display*/
@@ -187,7 +178,6 @@
     }
     .tx2sec1 {
       /*font*/
-      font-family: 'Inter';
       font-size: 20px;
       text-align: justify;
       /*display*/
@@ -195,7 +185,6 @@
     }
     .tt2sec1 {
       /*font*/
-      font-family: 'Inter';
       font-size: 20px;
       font-weight: 700;
       text-align: left;
@@ -205,7 +194,6 @@
     }
     .tx3sec1 {
       /*font*/
-      font-family: 'Inter';
       font-size: 20px;
       text-align: justify;
       /*display*/
@@ -213,7 +201,6 @@
     }
     .ul2sec1 {
       /*font*/
-      font-family: 'Inter';
       font-size: 20px;
       text-align: justify;
       /*display*/
@@ -223,7 +210,6 @@
     }
     .tx4sec1 {
       /*font*/
-      font-family: 'Inter';
       font-size: 20px;
       text-align: justify;
       /*display*/

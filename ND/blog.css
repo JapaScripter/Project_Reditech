@@ -1,9 +1,10 @@
   /*|All|*/
   @font-face {
     font-family: 'Inter';
-    src: url('font/Inter-Regular.ttf') format('truetype');
+    src: url('../font/Inter-Regular.ttf') format('truetype');
   }
   * {
+    /*font*/
     font-family: 'Inter';
     /*display*/
     margin: 0;
@@ -13,7 +14,6 @@
     /*display*/
     background: rgba(255, 255, 255, 0.7);
   }
-  
   /*|All|*/
 
   /*|Body|*/

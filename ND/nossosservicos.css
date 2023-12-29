@@ -1,18 +1,20 @@
-/*|All|*/
-* {
-  /*display*/
-  margin: 0;
-  padding: 0;
-}
-*::selection {
-  /*display*/
-  background: rgba(255, 255, 255, 0.7);
-}
-@font-face {
-  font-family: 'Inter';
-  src: url('font/Inter-Regular.ttf') format('truetype');
-}
-/*|All|*/
+  /*|All|*/
+  @font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Regular.ttf') format('truetype');
+  }
+  * {
+    /*font*/
+    font-family: 'Inter';
+    /*display*/
+    margin: 0;
+    padding: 0;
+  }
+  *::selection {
+    /*display*/
+    background: rgba(255, 255, 255, 0.7);
+  }
+  /*|All|*/
 
 /*|Body|*/
 body {
@@ -51,7 +53,6 @@ body {
 }
 .tt0sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 20px;
   font-weight: 900;
   color: #0039A6;
@@ -78,7 +79,6 @@ body {
   /*border*/
   border-radius: 0.25vw;
 }
-.div3sec1 {}
 .img1sec1 {
   /*display*/
   width: 25vw;
@@ -95,13 +95,11 @@ body {
 }
 .tt1sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 20px;
   color: #FFFFFF;
 }
 .ul1sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   color: #FFFFFF;
   /*display*/
@@ -129,7 +127,6 @@ body {
   /*border*/
   border-radius: 0.25vw;
 }
-.div7sec1 {}
 .div8sec1 {
   /*display*/
   position: absolute;
@@ -142,13 +139,11 @@ body {
 }
 .tt2sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 20px;
   color: #FFFFFF;
 }
 .ul2sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   color: #FFFFFF;
   /*display*/
@@ -176,7 +171,6 @@ body {
   /*border*/
   border-radius: 0.25vw;
 }
-.div11sec1 {}
 .div12sec1 {
   /*display*/
   position: absolute;
@@ -189,13 +183,11 @@ body {
 }
 .tt3sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 20px;
   color: #FFFFFF;
 }
 .ul3sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   color: #FFFFFF;
   /*display*/
@@ -223,7 +215,6 @@ body {
   /*border*/
   border-radius: 0.25vw;
 }
-.div15sec1 {}
 .div16sec1 {
   /*display*/
   position: absolute;
@@ -236,13 +227,11 @@ body {
 }
 .tt4sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 20px;
   color: #FFFFFF;
 }
 .ul4sec1 {
   /*font*/
-  font-family: 'Inter';
   font-size: 15px;
   color: #FFFFFF;
   /*display*/

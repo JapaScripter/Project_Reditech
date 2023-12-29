@@ -1,3 +1,14 @@
+/*|All|*/
+@font-face {
+  font-family: 'Inter';
+  src: url('../font/Inter-Regular.ttf') format('truetype');
+}
+* {
+  /*font*/
+  font-family: 'Inter';
+}
+/*|All|*/
+
 /*=====DESKTOP MODE=====*/
   /*|Header|*/
   #header {
@@ -27,7 +38,6 @@
   }
   .navLista {
     /*font*/
-    font-family:'Inter';
     font-size: 1vw;
     font-weight: 900;
     text-align: center;
