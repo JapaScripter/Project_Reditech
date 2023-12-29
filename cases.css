@@ -106,18 +106,15 @@ body {
 }
 .bt1sec1 {
   /*font*/
+  font-size: 15px;
   text-decoration: none;
-  color: #FFFFFF;  
+  color: #FFFFFF;
   /*display*/
   display: flex;
-  width: 5.6vw;
-  margin: 3vw 0;
-  padding: 1vw 3vw;
-  justify-content: left;
-  align-items: center;
+  padding: 1vw 4vw;
   background: #1A4DAF;
   /*border*/
-  border-radius: 10vw;
+  border-radius: 0.25vw;
   /*cursor*/
   cursor: pointer;
 }
@@ -222,19 +219,15 @@ body {
 }
 .bt1sec2 {
   /*font*/
+  font-size: 15px;
   text-decoration: none;
-  color: #FFFFFF;  
+  color: #FFFFFF;
   /*display*/
   display: flex;
-  width: 5.6vw;
-  margin: 3vw 0;
-  padding: 1vw 3vw;
-  justify-content: right;
-  align-items: center;
+  padding: 1vw 4vw;
   background: #1A4DAF;
-  z-index: 10;
   /*border*/
-  border-radius: 10vw;
+  border-radius: 0.25vw;
   /*cursor*/
   cursor: pointer;
 }
@@ -302,18 +295,15 @@ body {
 }
 .bt1sec3 {
   /*font*/
+  font-size: 15px;
   text-decoration: none;
-  color: #FFFFFF;  
+  color: #FFFFFF;
   /*display*/
   display: flex;
-  width: 5.6vw;
-  margin: 3vw 0;
-  padding: 1vw 3vw;
-  justify-content: left;
-  align-items: center;
+  padding: 1vw 4vw;
   background: #1A4DAF;
   /*border*/
-  border-radius: 10vw;
+  border-radius: 0.25vw;
   /*cursor*/
   cursor: pointer;
 }
@@ -418,18 +408,15 @@ body {
 }
 .bt1sec4 {
   /*font*/
+  font-size: 15px;
   text-decoration: none;
-  color: #FFFFFF;  
+  color: #FFFFFF;
   /*display*/
   display: flex;
-  width: 5.6vw;
-  margin: 3vw 0;
-  padding: 1vw 3vw;
-  justify-content: right;
-  align-items: center;
+  padding: 1vw 4vw;
   background: #1A4DAF;
   /*border*/
-  border-radius: 10vw;
+  border-radius: 0.25vw;
   /*cursor*/
   cursor: pointer;
 }
@@ -510,18 +497,15 @@ body {
 }
 .bt1sec5 {
   /*font*/
+  font-size: 15px;
   text-decoration: none;
-  color: #FFFFFF;  
+  color: #FFFFFF;
   /*display*/
   display: flex;
-  width: 5.6vw;
-  margin: 3vw 0;
-  padding: 1vw 3vw;
-  justify-content: left;
-  align-items: center;
+  padding: 1vw 4vw;
   background: #1A4DAF;
   /*border*/
-  border-radius: 10vw;
+  border-radius: 0.25vw;
   /*cursor*/
   cursor: pointer;
 }
@@ -626,18 +610,15 @@ body {
 }
 .bt1sec6 {
   /*font*/
+  font-size: 15px;
   text-decoration: none;
-  color: #FFFFFF;  
+  color: #FFFFFF;
   /*display*/
   display: flex;
-  width: 5.6vw;
-  margin: 3vw 0;
-  padding: 1vw 3vw;
-  justify-content: right;
-  align-items: center;
+  padding: 1vw 4vw;
   background: #1A4DAF;
   /*border*/
-  border-radius: 10vw;
+  border-radius: 0.25vw;
   /*cursor*/
   cursor: pointer;
 }
@@ -719,18 +700,15 @@ body {
 }
 .bt1sec7 {
   /*font*/
+  font-size: 15px;
   text-decoration: none;
-  color: #FFFFFF;  
+  color: #FFFFFF;
   /*display*/
   display: flex;
-  width: 5.6vw;
-  margin: 3vw 0;
-  padding: 1vw 3vw;
-  justify-content: left;
-  align-items: center;
+  padding: 1vw 4vw;
   background: #1A4DAF;
   /*border*/
-  border-radius: 10vw;
+  border-radius: 0.25vw;
   /*cursor*/
   cursor: pointer;
 }

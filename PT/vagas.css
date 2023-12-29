@@ -153,13 +153,12 @@ body {
   color: #FFFFFF;
   /*display*/
   display: flex;
-  width: 3vw;
   padding: 1vw 4vw;
-  justify-content: center;
-  align-items: center;
   background: #1A4DAF;
   /*border*/
-  border-radius: 0.25vw
+  border-radius: 0.25vw;
+  /*cursor*/
+  cursor: pointer;
 }
 .div4sec1 {
   /*display*/
@@ -238,15 +237,16 @@ body {
   }
   #anexo {
     /*display*/
-    width: 32vw;
+    width: 45vw;
     height: 10vw;
   }
   .bt1sec1 {
     /*display*/
-    width: 20vw;
-    height: 8vw;
-    /*border*/
-    border-radius: 2vw
+    width: 30vw;
+    margin: 10vw 0 0 0;
+    margin: 2vw;
+    padding: 3vw 4vw;
+    justify-content: center;
   }
   .div4sec1 {
     /*display*/

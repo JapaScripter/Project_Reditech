@@ -1,7 +1,7 @@
   /*|All|*/
   @font-face {
     font-family: 'Inter';
-    src: url('../font/Inter-Regular.ttf') format('truetype');
+    src: url('font/Inter-Regular.ttf') format('truetype');
   }
   * {
     /*font*/
