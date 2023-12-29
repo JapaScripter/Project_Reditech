@@ -125,17 +125,6 @@
     /*display*/
     width: 3.5vw;
   }
-  .ic7footer {
-    /*display*/
-    width: 3vw;
-    transition: 0.25s ease-in-out;
-    /*cursor*/
-    cursor: pointer;
-  }
-  .ic7footer:hover {
-    /*display*/
-    width: 3.5vw;
-  }
   .div9footer {
     /*display*/
     display: flex;
@@ -203,13 +192,7 @@
       width: 10vw
     }
     .ic6footer:hover {
-      width: 10vw;
-    }
-    .ic7footer{
-      width: 10vw
-    }
-    .ic7footer:hover {
-      width: 10;
+      width: 10VW;
     }
     /*|Footer|*/
   }

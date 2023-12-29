@@ -9,101 +9,99 @@
     <!--|Meta Config.|-->
 
     <!--|Title Tab|-->
-    <title>Reditech - Nossos Serviços</title>
+    <title>Reditech - Our Services</title>
     <!--|Title Tab|-->
 
     <!--|CSS Inside|-->
     <link rel="stylesheet" href="nossosservicos.css">
     <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
   </head>
   <body>
     <section>
       <!--|Header|-->
-      <header id="header">
-        <ul class="navUlista">
-          <li><a id="botaoHome" class="navLista" href="/">HOME</a></li>
-          <li><a id="botaoSobre" class="navLista" href="sobrenos.html">SOBRE NÓS</a></li>
-          <li><a id="botaoCases" class="navLista" href="cases.html">CASES</a></li>
-          <li><a id="botaoBlog" class="navLista" href="blog.html">BLOG</a></li>
-          <li><a id="botaoVagas" class="navLista" href="vagas.html">VAGAS</a></li>
-          <li><a id="botaoBE" class="navLista"><img src="../icons/flagbelgium.svg">BE</a></li>
-          <li><a id="botaoEN" class="navLista"><img src="../icons/flagunitedstates.svg">EN</a></li>
-          <li><a id="botaoPTBR" class="navLista"><img src="../icons/flagbrazil.svg">PT/BR</a></li>
-        </ul>
-      </header>
+      <header></header>
       <!--|Header|-->
 
       <!--|Main|-->
       <main>
-        <section class="sec1"></section>
-        <section class="sec2">
-          <a class="lk1sec2" href=""><img class="ic1sec2" src="icons/whatsapp.svg"><p class="tx1sec2">Entre em contato!!!</p></a>
-        </section>
-        <section class="sec3">
-          <div class="div1sec3">
-            <img class="im1sec3" src="../images/Trevo1.PNG">
+        <section class="sec1">
+          <div class="div0sec1">
+            <img class="img0sec1" src="../images/trevoright.png"><h1 class="tt0sec1">Services</h1>
           </div>
-          <div class="div2sec3">
-            <div class="div3sec3">
-              <h2 class="tt1sec3">Alimenticio</h2>
-              <ul class="ul1sec3">
-                <li>Ensilagem;</li>
-                <li>Cozimento;</li>
-                <li>Fermentação;</li>
-                <li>Filtração;</li>
-                <li>Envasamento;</li>
-                <li>Pasteurização.</li>
+          <div class="div1sec1">
+            <div class="div2sec1"></div>
+            <div class="div3sec1"><img class="img1sec1" src="../images/services/agronegocio.png"></div>
+            <div class="div4sec1">
+              <h2 class="tt1sec1">AGRONEGÓCIO</h2>
+              <ul class="ul1sec1">
+                <li>Silo;</li>
+                <li>Controle de umidade;</li>
+                <li>Rastreabilidade;</li>
+                <li>Receitas e envasamento.</li>
               </ul>
             </div>
-            <div class="div4sec3">
-              <a class="bt1sec3">Outros</a>
+          </div>
+          <div class="div5sec1">
+            <div class="div6sec1"></div>
+            <div class="div7sec1"><img class="img1sec1" src="../images/services/predial.png"></div>
+            <div class="div8sec1">
+              <h2 class="tt2sec1">PREDIAL</h2>
+              <ul class="ul2sec1">
+                <li>HVAC;</li>
+                <li>BMS;</li>
+                <li>Utilidades.</li>
+              </ul>
             </div>
           </div>
-        </section>
-        <section class="sec4">
-          <div class="div1sec4">
-            <img class="ic1sec4" src="../icons/arrowdown.svg"><h2 class="tt1sec4">Bem-vindo a Reditech Automation!</h2>
+          <div class="div9sec1">
+            <div class="div10sec1"></div>
+            <div class="div11sec1"><img class="img1sec1" src="../images/services/farmaceutica.png"></div>
+            <div class="div12sec1">
+              <h2 class="tt3sec1">FARMACÊUTICA E COSMÉTICOS</h2>
+              <ul class="ul3sec1">
+                <li>CIP e SIP;</li>
+                <li>Automação de linhas completas;</li>
+                <li>Filling machineS.</li>
+              </ul>
+            </div>
           </div>
-          <div class="div2sec4">
-            <p class="tx1sec4">Somos uma empresa líder em soluções de automação industrial, dedicada a impulsionar a eficiência, a produtividade e a qualidade em diversos setores. Com uma equipe altamente qualificada e apaixonada pelo que faz, buscamos constantemente inovar e entregar as melhores soluções tecnológicas para os nossos clientes.
-              Navegue em nosso site para conhecer mais sobre nossos serviços, produtos e projetos anteriores. Ficaremos felizes em responder a quaisquer dúvidas ou fornecer informações adicionais. Estamos prontos para ajudá-lo a alcançar a automação inteligente e impulsionar o sucesso do seu negócio.
-              Obrigado por visitar a Reditech Automation. Estamos ansiosos para colaborar com você e tornar sua empresa mais competitiva no mercado em constante evolução da automação industrial.
-            </p>
-          </div>  
+          <div class="div13sec1">
+            <div class="div14sec1"></div>
+            <div class="div15sec1"><img class="img1sec1" src="../images/services/logistica.png"></div>
+            <div class="div16sec1">
+              <h2 class="tt4sec1">LOGÍSTICA</h2>
+              <ul class="ul4sec1">
+                <li>Rastreabilidade;</li>
+                <li>Seletividade;</li>
+                <li>WMS;</li>
+              </ul>
+            </div>
+          </div>
         </section>
       </main>
       <!--|Main|-->
 
       <!--|Footer|-->
-      <footer id="footer">
-        <div class="div1footer">
-          <div class="div2footer">
-            <div class="div3footer">
-              <img class="ic1footer" src="../icons/arrowdown.svg"><p>Envolvimento</p>
-            </div>
-            <div class="div4footer">
-              <img class="ic2footer" src="../icons/arrowright.svg"><p>Flexibilidade</p>
-            </div>
-            <div class="div5footer">
-              <img class="ic3footer" src="../icons/arrowup.svg"><p>Sustentabilidade</p>
-            </div>
-            <div class="div6footer">
-              <img class="ic4footer" src="../icons/arrowleft.svg"><p>Confiabilidade</p>
-            </div>
-          </div>
-          <div class="div7footer">
-            <h2 class="tt1footer">Siga a REDITECH</h2>
-            <div class="div8footer">
-              <img class="ic5footer" src="../icons/facebook.svg" href=""></img>
-              <img class="ic6footer" src="../icons/linkedin.svg" href=""></img>
-              <img class="ic7footer" src="../icons/instagram.svg" href=""></img>
-            </div>
-          </div>
-        </div>
-        <div class="div9footer">
-          <p class="txfooter">Todos os direitos reservados Reditech e Unilatem &copy; <strong id="anoatual"><script>document.getElementById('anoatual').innerHTML = new Date().getFullYear();</script></strong>.</p>
-        </div>
-      </footer>
+      <footer></footer>
       <!--|Footer|-->
     </section>
   </body>

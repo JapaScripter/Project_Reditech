@@ -1,20 +1,20 @@
-/*|All|*/
-@font-face {
-  font-family: 'Inter';
-  src: url('../font/Inter-Regular.ttf') format('truetype');
-}
-* {
-  /*font*/
-  font-family: 'Inter';
-  /*display*/
-  margin: 0;
-  padding: 0;
-}
-*::selection {
-  /*display*/
-  background: rgba(255, 255, 255, 0.7);
-}
-/*|All|*/
+  /*|All|*/
+  @font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Regular.ttf') format('truetype');
+  }
+  * {
+    /*font*/
+    font-family: 'Inter';
+    /*display*/
+    margin: 0;
+    padding: 0;
+  }
+  *::selection {
+    /*display*/
+    background: rgba(255, 255, 255, 0.7);
+  }
+  /*|All|*/
 
 /*|Body|*/
 body {
@@ -30,173 +30,215 @@ body {
 /*|Main|*/
 .sec1 {
   /*display*/
-  width: 100%;
-  height: 50vw;
-  background: #FFFFFF;
-}
-.sec2 {
-  /*display*/
   display: flex;
+  width: 100%;
+  height: 120vw;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.div0sec1 {
+  /*display*/
   position: relative;
-  width: 100%;
-  height: 10vw;
-  justify-content: center;
-  align-items: center;
-  background: #C5C6C8;
-}
-.lk1sec2 {
-  /*font*/
-  text-decoration: none;
-  /*display*/
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /*cursor*/
-  cursor: pointer;
-}
-.lk1sec2:hover .ic1sec2 {
-  /*display*/
-  width: 4.5vw;
-}
-.lk1sec2:hover .tx1sec2 {
-  /*font*/
-  font-weight: 700;
-  color: #0039A6;
-}
-.ic1sec2 {
-  /*display*/
-  width: 4vw;
-  height: auto;
-  transition: 0.25s ease-out;
-}
-.tx1sec2 {
-  /*font*/
-  font-size: 15px;
-  font-weight: 300;
-  color: #000000;
-}
-.sec3 {
-  /*display*/
-  display: flex;
-  width: 100%;
-  height: 30vw;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.div1sec3 {
-  /*display*/
-}
-.im1sec3 {
-  /*display*/
-  width: 30vw;
-  height: auto;
-}
-.div2sec3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.div3sec3 {
-  /*display*/
-  display: flex;
-  width: 25vw;
-  height: 10vw;
-  margin-left: 5vw;
-  padding: 3vw;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  /*border*/
-  border: 2px solid rgba(0,57,166, 0.5  );
-  border-radius: 1vw;
-}
-.tt1sec3 {
-  /*font*/
-  color: #0039A6;
-}
-.ul1sec3 {
-  /*font*/
-  font-size: 15px;
-  /*display*/
-  display: flex;
-  padding: 1vw 2vw;
-  flex-direction: column;
-}
-.div4sec3 {
-  /*display*/
-  display: flex;
-  width: 100%;
-  justify-content: right;
-  align-items: center;
-}
-.bt1sec3 {
-  /*font*/
-  font-size: 13px;
-  text-align: center;
-  color: #FFFFFF;
-  /*display*/
-  display: flex;
-  width: 30%;
-  height: 2.5vw;
-  margin-top: 2vw;
-  justify-content: center;
-  align-items: center;
-  background: #1A4DAF;
-  /*border*/
-  border-radius: 0.25vw;
-  /*cursor*/
-  cursor: pointer;
-}
-.bt1sec3:hover {
-  /*font*/
-  font-weight: 900;
-  color: #1A4DAF;
-  /*display*/
-  background: rgba(26,77,175, 0.5);
-}
-.sec4 {
-  /*display*/
-  display: flex;
-  width: 100%;
-  height: 30vw;
-  padding: 5vw 0;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  background: #0071BC;
-}
-.div1sec4 {
-  /*display*/
-  display: flex;
-  width: 60%;
+  width: 65%;
+  left: 2vw;
+  margin-top: 5vw;
   flex-direction: row;
   justify-content: left;
   align-items: center;
 }
-.ic1sec4 {
+.img0sec1 {
   /*display*/
-  width: 4vw;
+  width: 3vw;
 }
-.tt1sec4 {
+.tt0sec1 {
   /*font*/
-  font-size: 15px;
-  font-weight: 700;
-  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 900;
+  color: #0039A6;
   /*display*/
+  padding-left: 1vw;
 }
-.div2sec4 {
+.div1sec1 {
   /*display*/
   display: flex;
   width: 60%;
+  margin: 0 0 1vw 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.tx1sec4 {
+.div2sec1 {
+  /*display*/
+  position: absolute;
+  width: 12vw;
+  height: 2vw;
+  bottom: 100vw;
+  background: #0039A6;
+  z-index: 1;
+  /*border*/
+  border-radius: 0.25vw;
+}
+.img1sec1 {
+  /*display*/
+  width: 25vw;
+}
+.div4sec1 {
+  /*display*/
+  position: absolute;
+  width: 30vw;
+  right: 20vw;
+  padding: 2vw 4vw;
+  background: rgba(0,57,166, 0.8);
+  /*border*/
+  border-radius: 0.25vw;
+}
+.tt1sec1 {
+  /*font*/
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.ul1sec1 {
   /*font*/
   font-size: 15px;
-  text-align: justify;
   color: #FFFFFF;
+  /*display*/
+  position: relative;
+  left: 1vw;
+  padding: 1vw;
+}
+.div5sec1 {
+  /*display*/
+  display: flex;
+  width: 60%;
+  margin: 1vw 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.div6sec1 {
+  /*display*/
+  position: absolute;
+  width: 12vw;
+  height: 2vw;
+  bottom: 73.5vw;
+  background: #0039A6;
+  z-index: 1;
+  /*border*/
+  border-radius: 0.25vw;
+}
+.div8sec1 {
+  /*display*/
+  position: absolute;
+  width: 30vw;
+  right: 20vw;
+  padding: 2vw 4vw;
+  background: rgba(0,57,166, 0.8);
+  /*border*/
+  border-radius: 0.25vw;
+}
+.tt2sec1 {
+  /*font*/
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.ul2sec1 {
+  /*font*/
+  font-size: 15px;
+  color: #FFFFFF;
+  /*display*/
+  position: relative;
+  left: 1vw;
+  padding: 1vw;
+}
+.div9sec1 {
+  /*display*/
+  display: flex;
+  width: 60%;
+  margin: 1vw 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.div10sec1 {
+  /*display*/
+  position: absolute;
+  width: 12vw;
+  height: 2vw;
+  bottom: 47vw;
+  background: #0039A6;
+  z-index: 1;
+  /*border*/
+  border-radius: 0.25vw;
+}
+.div12sec1 {
+  /*display*/
+  position: absolute;
+  width: 30vw;
+  right: 20vw;
+  padding: 2vw 4vw;
+  background: rgba(0,57,166, 0.8);
+  /*border*/
+  border-radius: 0.25vw;
+}
+.tt3sec1 {
+  /*font*/
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.ul3sec1 {
+  /*font*/
+  font-size: 15px;
+  color: #FFFFFF;
+  /*display*/
+  position: relative;
+  left: 1vw;
+  padding: 1vw;
+}
+.div13sec1 {
+  /*display*/
+  display: flex;
+  width: 60%;
+  margin: 1vw 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.div14sec1 {
+  /*display*/
+  position: absolute;
+  width: 12vw;
+  height: 2vw;
+  bottom: 21vw;
+  background: #0039A6;
+  z-index: 1;
+  /*border*/
+  border-radius: 0.25vw;
+}
+.div16sec1 {
+  /*display*/
+  position: absolute;
+  width: 30vw;
+  right: 20vw;
+  padding: 2vw 4vw;
+  background: rgba(0,57,166, 0.8);
+  /*border*/
+  border-radius: 0.25vw;
+}
+.tt4sec1 {
+  /*font*/
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.ul4sec1 {
+  /*font*/
+  font-size: 15px;
+  color: #FFFFFF;
+  /*display*/
+  position: relative;
+  left: 1vw;
+  padding: 1vw;
 }
 /*|Main|*/
 
