@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <html lang="pt"></html>
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="index.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("./header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("./footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <video width="100%" height="100%" autoplay>
+            <source src="../images/home/nd.mp4" type="video/mp4">
+            Uw browser ondersteunt het video-element niet.
+          </video>
+        </section>
+        <section class="sec2">
+          <a class="lk1sec2" href="">
+            <img class="ic1sec2" src="../icons/whatsapp.svg">
+            <p id="tx1sec2" class="tx1sec2">Contact!!!</p>
+          </a>
+        </section>
+        <section class="sec3">
+          <div>
+            <img class="im1sec3" src="../images/home/trevo.png">
+          </div>
+          <div>
+            <div class="div1sec3">
+              <h2 id="tt1sec3" class="tt1sec3">Voedingsmiddelen en Dranken</h2>
+              <ul class="ul1sec3">
+                <li id="li1">Volledige procescontrole met receptafhandeling;</li>
+                <li id="li2">stockage en verwerking basis- en afgewerkte producten;</li>
+                <li id="li3">Verpakking;</li>
+                <li id="li4">Filtratie;</li>
+                <li id="li5">Bottelen;</li>
+                <li id="li6">Pasteurisatie.</li>
+              </ul>
+            </div>
+            <div class="div2sec3">
+              <a id="bt1sec3" class="bt1sec3" href="nossosservicos.html">Anderen</a>
+            </div>
+          </div>
+        </section>
+        <section class="sec4">
+          <div class="div1sec4">
+            <img class="ic1sec4" src="../images/trevodown.png">
+            <h2 id="tt1sec4" class="tt1sec4">
+              Welkom bij Reditech Automation!
+            </h2>
+          </div>
+          <div class="div2sec4">
+            <p id="tx1sec4" class="tx1sec4">
+              Wij zijn een toonaangevend bedrijf in industriële automatiseringsoplossingen, bijna 30 jaar toegewijd aan het verhogen van efficiëntie, productiviteit en kwaliteit in verschillende sectoren. Met een hooggekwalificeerd team dat gepassioneerd is over wat het doet, streven we er voortdurend naar om te innoveren en de beste technologische oplossingen voor onze klanten te leveren.
+              Blader door onze website voor meer informatie over onze diensten, producten en eerder gerealiseerde projecten. We staan klaar om u te helpen met het realiseren van intelligente automatisering en het succes van uw bedrijf te vergroten.
+              We kijken ernaar uit om met u samen te werken en uw bedrijf in een sterkere concurrentiepositie te brengen in de steeds veranderende markt van industriële automatisering.
+            </p>
+          </div>  
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+</html>

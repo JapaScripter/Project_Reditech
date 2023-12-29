@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="iodo.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("/header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("/footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="../images/trevoright.png"><h1 class="tt1sec1">SLIBONTWATERING EN DROGING</h1><img class="im2sec1" src="../images/blog/3.PNG">
+          </div>
+          <p class="tx1sec1">
+            Effluentbehandeling is een van de belangrijkste sectoren binnen de industrie. Een adequate infrastructuur maakt het mogelijk om al het afval dat tijdens de processen ontstaat op een intelligente en milieuvriendelijke manier te hergebruiken.
+            <br><br>
+            Er is veel bekend over het hergebruik van vloeibaar afval, dat verschillende toepassingen heeft, maar ook het vaste deel (slib) van waterzuiveringsinstallaties kan worden hergebruikt.
+            <br><br>
+            Slib kan worden gegenereerd door zowel waterzuivering als door waterbehandeling. Het grootste deel ervan bestaat uit water, de rest is het meer vaste deel, dat organisch of anorganisch kan zijn. Om dit slib op een minder dure manier te vervoeren en te kunnen hergebruiken, moet het ontwaterd worden. Dit proces maakt het ook mogelijk om water te hergebruiken en het volume van het afval te verminderen, waardoor het gemakkelijker te vervoeren is.
+            <br><br>
+            Een van de manieren om dit proces uit te voeren is door middel van droogbedden. In rechthoekige tanks wordt het slib ontvangen en wordt de vochtigheid verlaagd door het vrije water af te voeren en het water dat vrijkomt tijdens de droogperiode te verdampen. Dit is een soortgelijk proces als slib-lagunes. Dit is ook een natuurlijk proces, dat bestaat uit het afvoeren van het slib in lagunes die zich bevinden in reservoirs gemaakt van aarde of in depressies in de grond. Hoewel beide methoden natuurlijk zijn, ligt het belangrijkste verschil tussen beide in de dimensionering en in enkele constructie- en bedieningsdetails.
+            <br><br>
+            <b>Drogen op zonne-energie:</b>Bij dit proces wordt het natte slib op een droog-bed geplaatst dat bedekt is met een kas. De warmte van zonnestraling in combinatie met gemechaniseerde stadia van slibdraaien resulteert in een natuurlijk droogproces.
+            <br><br>
+            <b>Brandstofdrogers gebruiken</b>warmte om de verdamping van het water in het slib te activeren. Hoge temperaturen kunnen worden overgebracht door hete lucht of gas, stoom, heet water of zelfs olie. Wanneer de door een van deze elementen geproduceerde warmte wordt overgedragen op de vaste-stof-matrix, zorgt dit ervoor dat het water in het slib verdampt. Aangezien bij dit proces aanzienlijk giftige gassen vrijkomen, moeten deze worden behandeld voordat ze in de atmosfeer worden uitgestoten.
+            <br><br>
+            <b>"Er is veel bekend over het hergebruik van vloeibaar afval, dat verschillende toepassingen heeft, maar het vaste deel (slib) van waterzuiveringsinstallaties kan ook worden hergebruikt."</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

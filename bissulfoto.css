@@ -1,0 +1,80 @@
+  /*|All|*/
+  @font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Regular.ttf') format('truetype');
+  }
+  * {
+    /*font*/
+    font-family: 'Inter';
+    /*display*/
+    margin: 0;
+    padding: 0;
+  }
+  *::selection {
+    /*display*/
+    background: rgba(255, 255, 255, 0.7);
+  }
+  /*|All|*/
+
+  /*|Body|*/
+  body {
+    /*display*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  /*|Body|*/
+
+  /*|Main|*/
+  .sec1 {
+    /*display*/
+    display: flex;
+    height: 70vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .im2sec1 {
+    /*display*/
+    width: 15vw;
+    height: auto;
+    padding: 1vw;
+  }
+  .div1sec1 {
+    /*display*/
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  .im1sec1 {
+    /*display*/
+    width: 3vw;
+  }
+  .tt1sec1 {
+    /*font*/
+    font-size: 30px;
+    font-weight: 300;
+    color: #0039A6;
+    /*display*/
+    padding: 2vw;
+  }
+  .tx1sec1 {
+    /*font*/
+    font-size: 20px;
+    text-align: justify;
+    /*display*/
+    width: 70%;
+  }
+  /*|Main|*/
+
+  /*=====MOBILE MODE=====*/
+  @media screen and (max-width: 768px) {
+    /*|Main|*/
+    
+    /*|Main|*/
+  }
+  /*=====MOBILE MODE=====*/

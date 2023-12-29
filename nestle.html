@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="nestle.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="../images/trevoright.png"><h1 class="tt1sec1">NESTLE-FEIRA DE SANTANA-BAHIA</h1><img class="im2sec1" src="../images/cases/nestle.png">
+          </div>
+          <p class="tx1sec1">
+            Bij Nestle in Feira de Santana – BA (Brazilië) ontwikkelde Reditech de besturingssoftware en stelde het systeem in bedrijf, dat bestaat uit:
+            <br><br>
+          </p>
+          <ul class="ul1sec1">
+            <li>Reverse osmose systeem voor het leveren van gedemineraliseerd water;</li>
+            <br><br>
+            <li>Tank voor grondwater;</li>
+            <br><br>
+            <li>Een Multi medium-filter, een actief koolfilter en een reverse-osmosesysteem;</li>
+            <br><br>
+            <li>De basiswerking bestaat uit het pompen van het grondwater uit de put en opslagen in de 20 m³ tank via een multi-medium filter bestaande uit antraciet, zand, granaat en kiezel filterbedden.</li>
+            <br><br>
+          </ul>
+          <p class="tx2sec1">
+            In de toevoerleiding van het  reverse-osmose systeem worden de aanwezigheid van chloor, pH en troebelheid gemeten. Indien nodig wordt NaOH gedoseerd om de pH aan te passen en vervolgens wordt het anti-fouling-middel gedoseerd (tegen algenvorming). Het permeaat wordt naar de permeaatwatertank gestuurd en het gegenereerde afval wordt naar de effluenttank gestuurd.
+          </p>
+          <br><br>
+          <p class="tx3sec1">
+            <b>""Bij Nestle in Feira de Santana – BA (Brazilië), ontwikkelde Reditech de besturingssoftware en nam het systeem in bedrijf".</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

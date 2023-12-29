@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="sergipe.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="../images/trevoright.png"><h1 class="tt1sec1">THERMO-ELEKTRISCHE CENTRALE te PORTO DE SERGIPE</h1><img class="im2sec1" src="../images/cases/usinaportoalegre.png">
+          </div>
+          <p class="tx1sec1">
+            In de thermo-elektrische centrale van Porto de Sergipe heeft Reditech besturingssoftware ontwikkeld en de inbedrijfstelling van het zeewater-captatie-systeem uitgevoerd, dat bestaat uit:
+            <br><br>
+            Ontzilting van het water door middel van omgekeerde osmose (RO) en levering van gedemineraliseerd water aan de boilers.
+            <br><br>
+            Gedemineraliseerd water naar de recuperatieketels.
+            <br><br>
+            Het systeem bestaat uit een systeem van zeewater-captatie-pompen, coagulatie, flocculatie en coagulatie-, flocculatie- en klaringsreservoirs. Het gezuiverde water gaat door Multi-medium-filters en een omgekeerd osmosesysteem.
+            <br><br>
+            De basiswerking bestaat uit het pompen van water uit de zee in een systeem van tanks waarin chemicaliën worden gedoseerd om het water te coaguleren, flocculeren en klaren. Dit water wordt vervolgens naar een tank met geklaard water gepompt en van waaruit het door een Multi-Medium-filterinstallatie wordt gepompt dat bestaat uit antraciet-, zand-, granaat- en kiezelfilterbedden.
+            <br><br>
+            Nadat het water door deze Multi-medium-filter is gegaan, wordt het naar Omgekeerde Osmose gestuurd. Het permeaat van de reverse osmose wordt naar de permeaat-tank gestuurd en het gegenereerde afvalwater wordt naar de Effluent Tank gestuurd.
+            <br><br>
+            Het permeaat wordt daana naar de ‘gemengd bed’- wisselaars gepompt van waaruit gedemineraliseerd water wordt verkregen voor gebruik in de ketels (boilers) van de thermo-elektrische centrale.
+            <br><br>
+            <b>"In de thermo-elektrische centrale van Porto de Sergipe ontwikkelde Reditech besturingssoftware en inbedrijfstelling van het zeewater-captatiesysteem"</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>
