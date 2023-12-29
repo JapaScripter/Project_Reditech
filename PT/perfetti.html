@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="perfetti.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="images/trevoright.png"><h1 class="tt1sec1">FÁBRICA PERFETTI VAN MELLE - VINHEDO SP</h1><img class="im2sec1" src="images/cases/perfetti.png">
+          </div>
+          <p class="tx1sec1">
+            Na fábrica da Perfetti Van Melle Reditech desenvolveu um software de controle para a Estação de Tratamento de Efluentes, responsável pelo tratamento da água descartada pela área produtiva, em produção normal ao longo do ano.
+            Dentro do escopo de fornecimento foi contemplado:
+            <br><br>
+          </p>
+          <ul class="ul1sec1">
+            <li>Projeto elétrico em Eplan;</li>
+            <br><br>
+            <li>Montagem dos painéis de automação e CCM;</li>
+            <br><br>
+            <li>Fornecimento de licenças da estação de operação e de engenharia;</li>
+            <br><br>
+            <li>Desenvolvimento das telas de operação.</li>
+            <br><br>
+          </ul>
+          <p class="tx2sec1">
+            O sistema é constituído por um reator anaeróbico, tanque de condicionamento de águas residuais, sistema novo de lodo ativado utilizando a tecnologia MBR (Membrane Bioreactor), além de sistemas de interligação e queima do Biogás produzido.
+          </p>
+          <h2 class="tt2sec1">CASE</h2>
+          <p class="tx3sec1">
+            Seu funcionamento básico consiste na captação dos efluentes provenientes da área de produção, estes serão pré-tratados, equalizados e tratados anaerobicamente no reator EGSB e pelo sistema aeróbio que é constituído de:
+            <br><br>
+          </p>
+          <ul class="ul2sec1">
+            <li>Bombas de coleta de efluente bruto;</li>
+            <br><br>
+            <li>Pré-tratamento: peneiramento, remoção de gordura, areia e sólidos, tanques de equalização;</li>
+            <br><br>
+            <li>Buffer Tank e o DAF;</li>
+            <br><br>
+            <li>Planta Aeróbia (processo de lodos ativados + MBR); - Bombas de recalque e tanques de transferência e de CIP.</li>
+            <br><br>
+          </ul>
+          <p class="tx4sec1">
+            <b>“A Reditech desenvolveu um software de controle para a Estação de Tratamento de Efluentes, responsável pelo tratamento da água descartada pela área produtiva, em produção normal ao longo do ano.”</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

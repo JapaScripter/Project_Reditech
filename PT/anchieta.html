@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="anchieta.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="images/trevoright.png"><h1 class="tt1sec1">FÁBRICA VOLKSWAGEN <br> (BUFFER) - ANCHIETA  SP</h1><img class="im2sec1" src="images/cases/anchieta.jpg">
+          </div>
+          <p class="tx1sec1">
+            A Reditech realizou a programação do Buffer de placas de montagem do motor e suspensão do Polo, Virtus e Saveiro da ALA 14 – Casamento entre motor e carroceria.
+            <br><br>
+            Dentro do escopo de fornecimento foi contemplado:
+            <br><br>
+          </p>
+          <ul class="ul1sec1">
+            <li>Programação do sistema de rastreamento e interface com o sistema da Volkswagen;</li>
+            <li>Programação dos CLP;</li>
+            <li>Desenvolvimento de lógica e IHM de operação para os novos modelos.</li>
+          </ul>
+          <br><br>
+          <p class="tx2sec1">
+            O sistema é constituído por um buffer de mesas de rolo que além de armazenar as placas de montagem, também gerencia e organiza a ordem e sequência de fornecimento de placas para linha. Conforme lista de chassis fornecida pelo sistema central da Volkswagen, pois cada modelo de carro tem a sua placa específica.
+            <br><br>
+          </p>
+          <p class="tx3sec1">
+            <b>“A Reditech realizou a programação do Buffer de placas de montagem do motor e suspensão do Polo, Virtus e Saveiro da ALA 14 – Casamento entre motor e carroceria.”</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

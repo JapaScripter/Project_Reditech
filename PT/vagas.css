@@ -1,0 +1,522 @@
+/*|All|*/
+@font-face {
+  font-family: 'Inter';
+  src: url('../font/Inter-Regular.ttf') format('truetype');
+}
+* {
+  /*display*/
+  font-family: 'Inter';
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  /*display*/
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/*|All|*/
+
+/*|Body|*/
+body {
+  /*display*/
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*|Body|*/
+
+/*|Header|*/
+#header {
+  /*display*/
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 3vw;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  z-index: 1000;
+}
+.navUlista {
+  /*font*/
+  text-decoration: none;
+  list-style-type: none;
+  /*display*/
+  display: inline-flex;
+  margin: 0 1vw;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.navLista {
+  /*font*/
+  font-family:'Inter';
+  font-size: 1vw;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.5vw;
+  color: #000000;
+  /*display*/
+  display: flex;
+  margin: 0 1vw;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.navLista:hover {
+  /*font*/
+  color: #0039A6;
+  /*display*/
+  display: flex;
+  margin: 0 1vw;
+  padding: 0;
+  /*cursor*/
+  cursor: pointer;
+}
+.imhd {
+  /*display*/
+  width: 12vw;
+}
+/*|Header|*/
+
+/*|Main|*/
+.sec1 {
+  /*display*/
+  display: flex;
+  width: 100%;
+  height: 40vw;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.ic1sec1 {
+  /*display*/
+  width: 3vw;
+  padding: 2vw;
+}
+.tt1sec1 {
+  /*font*/
+  font-size: 40px;
+  color: #1A4DAF;
+  /*display*/
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 5vw;
+  margin: 5vw;
+  justify-content: center;
+  align-items: center;
+}
+.div1sec1 {
+  /*display*/
+  display: flex;
+  width: 65%;
+  height: 20vw;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /*border*/
+  border: 1px solid #0039A6;
+  border-radius: 0.25vw;
+}
+.div2sec1 {
+  /*display*/
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.ul1sec1 {
+  /*font*/
+  list-style-type: none;
+}
+.li1sec1 {
+  /*font*/
+  color: #0039A6;
+  /*display*/
+  margin: 2vw;
+}
+#nome {
+  /*display*/
+  width: 24vw;
+  /*border*/
+  border: 1px solid #0039A6;
+  border-radius: 0.25vw;
+}
+.li2sec1 {
+  /*font*/
+  color: #0039A6;
+  /*display*/
+  margin: 2vw;
+}
+#email {
+  /*display*/
+  width: 23.75vw;
+  /*border*/
+  border: 1px solid #0039A6;
+  border-radius: 0.25vw;
+}
+.li3sec1 {
+  /*font*/
+  color: #0039A6;
+  /*display*/
+  margin: 2vw;
+}
+#telefone {
+  /*display*/
+  width: 18.2vw;
+  /*border*/
+  border: 1px solid #0039A6;
+  border-radius: 0.25vw;
+}
+.li4sec1 {
+  /*font*/
+  color: #0039A6;
+  /*display*/
+  display: flex;
+  margin: 2vw;
+  justify-content: start;
+  align-items: start;
+}
+#anexo {
+  /*display*/
+  width: 16.7vw;
+  height: 6vw;
+  padding: 0.25vw;
+  /*border*/
+  border: 1px solid #0039A6;
+  border-radius: 0.25vw;
+}
+.div3sec1 {
+  /*display*/
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.im1sec1 {
+  /*display*/
+  width: 25vw;
+  height: 15vw;
+  padding: 1vw;
+  /*border*/
+  border-radius: 2vw;
+}
+/*|Main|*/
+
+/*|Footer|*/
+#footer {
+  /*display*/
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 15vw;
+  margin: 0;
+  padding: 0;
+  bottom: revert;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #D9D9D9;
+  z-index: 1000;
+}
+.div1footer {
+  /*display*/
+  display: flex;
+  width: 100%;
+  height: 15vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.div2footer {
+  /*font*/
+  text-align: left;
+  /*display*/
+  display: flex;
+  margin-left: 20vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div3footer {
+  /*display*/
+  display: flex;
+  width: auto;
+  height: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.div4footer {
+  /*display*/
+  display: flex;
+  width: auto;
+  height: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.div5footer {
+  /*display*/
+  display: flex;
+  width: auto;
+  height: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.div6footer {
+  /*display*/
+  display: flex;
+  width: auto;
+  height: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.div7footer {
+}
+.tt1footer {
+  /*font*/
+  font-size: 15px;
+  /*display*/
+  margin-right: 20vw;
+}
+.div8footer {
+}
+.ic5footer {
+  /*display*/
+  width: 3vw;
+  transition: 0.25s ease-in-out;
+  /*cursor*/
+  cursor: pointer;
+}
+.ic1footer {
+  /*display*/
+  position: relative;
+  right: 0.55vw;
+}
+.ic2footer {
+  /*display*/
+  position: relative;
+  right: 0.75vw;
+}
+.ic3footer {
+  /*display*/
+  position: relative;
+  right: 0vw;
+}
+.ic4footer {
+  /*display*/
+  position: relative;
+  right: 0.25vw;
+}
+.ic5footer:hover {
+  /*display*/
+  width: 3.5vw;
+}
+.ic6footer {
+  /*display*/
+  width: 3vw;
+  transition: 0.25s ease-in-out;
+  /*cursor*/
+  cursor: pointer;
+}
+.ic6footer:hover {
+  /*display*/
+  width: 3.5vw;
+}
+.ic7footer {
+  /*display*/
+  width: 3vw;
+  transition: 0.25s ease-in-out;
+  /*cursor*/
+  cursor: pointer;
+}
+.ic7footer:hover {
+  /*display*/
+  width: 3.5vw;
+}
+.div9footer {
+  /*display*/
+  display: flex;
+  width: 100%;
+  height: 5vw;
+  justify-content: center;
+  align-items: center;
+  background: #D9D9D9;
+}
+.txfooter {
+  /*font*/
+  font-family: DM-Sans;
+  font-weight: 300;
+  color: #000000;
+  /*display*/
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+/*|Footer|*/
+
+/*=====MOBILE MODE=====*/
+@media screen and (max-width: 768px) {
+  /*|Header|*/
+  #header {
+    /*display*/
+    height: 20vw;
+  }
+  .navUlista {
+    /*display*/
+    flex-wrap: wrap;
+  }
+  .navLista {
+    /*font*/
+    font-size: 15px;
+  }
+  /*|Header|*/
+
+  /*|Main|*/
+  .sec1 {
+    /*display*/
+    height: 215vw;
+  }
+  .ic1sec1 {
+    /*display*/
+    width: 6vw;
+    height: auto;
+  }
+  .tt1sec1 {
+    /*font*/
+    font-size: 40px;
+    color: #1A4DAF;
+    /*display*/
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 12vw;
+    margin-top: 33vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .div1sec1 {
+    /*display*/
+    width: 80%;
+    height: 120vw;
+    flex-direction: column-reverse;
+  }
+  .div2sec1 {
+    /*display*/
+    width: 100%;
+  }
+  .li1sec1 {
+    /*display*/
+    margin: 5vw 2vw;
+  }
+  #nome {
+    /*display*/
+    width: 60vw;
+  }
+  .li2sec1 {
+    /*display*/
+    margin: 5vw 2vw;
+  }
+  #email {
+    /*display*/
+    width: 59.5vw;
+  }
+  .li3sec1 {
+    /*display*/
+    margin: 5vw 2vw;
+  }
+  #telefone {
+    /*display*/
+    width: 40.75vw;
+  }
+  .li4sec1 {
+    /*display*/
+    margin: 5vw 2vw;
+  }
+  #anexo {
+    /*display*/
+    width: 37vw;
+    height: 18vw;
+  }
+  .div3sec1 {
+    /*display*/
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .im1sec1 {
+    /*display*/
+    width: 70vw;
+    height: 50vw;
+  }
+  /*|Main|*/
+
+  /*|Footer|*/
+  #footer {
+    /*display*/
+    height: 35vw;
+  }
+  .div1footer {
+    /*display*/
+    height: 25vw;
+  }
+  .div2footer {
+    /*display*/
+    height: 25vw;
+    margin-left: 0vw;
+  }
+  .div3footer {
+    /*display*/
+    height: 5vw;
+  }
+  .div4footer {
+    /*display*/
+    height: 5vw;
+  }
+  .div5footer {
+    /*display*/
+    height: 5vw;
+  }
+  .div6footer {
+    /*display*/
+    height: 5vw;
+  }
+  .tt1footer {
+    margin-right: 15vw;
+  }
+  .ic5footer{
+    width: 10vw
+  }
+  .ic5footer:hover {
+    width: 10vw;
+  }
+  .ic6footer{
+    width: 10vw
+  }
+  .ic6footer:hover {
+    width: 10vw;
+  }
+  .ic7footer{
+    width: 10vw
+  }
+  .ic7footer:hover {
+    width: 10;
+  }
+  /*|Footer|*/
+}
+/*=====MOBILE MODE=====*/
+
+/*=====TABLET MODE=====*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+/*=====TABLET MODE=====*/

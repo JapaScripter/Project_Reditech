@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="blog.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("./header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("./footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <div class="divmain">
+          <img class="immain" src="images/trevoleft.png"><h1 class="ttmain">Blog</h1>
+        </div>
+        <section class="sec0">
+          <section class="sec1">
+            <h1 class="ttsec1">A IMPORTANCIA DO MONITORAMENTO DO BISSULFOTO DE SÓDIO</h1>
+            <img class="imsec1" src="images/blog/1.PNG">
+            <p class="txsec1">A importância do monitoramento do bissulfoto de sódio.<br><br>O Bissulfito de Sódio ou Hidrogenosulfito de Sódio cuja fórmula é NaHSO3 é uma solução de...</p>
+            <div class="divsec1">
+              <a class="btsec1" href="bissulfoto.html">Ler mais</a>
+            </div>
+          </section>
+          <section class="sec2">
+            <h1 class="ttsec2">AGUÁ DESMINERALIZADA</h1>
+            <img class="imsec2" src="images/blog/2.PNG">
+            <p class="txsec2">A água desmineralizada também conhecida como água deionizada é caracterizada pela sua pureza sendo livre de minerais, íons e metais pesados. Costuma ser utilizada em equipamentos industriais além de ser ingrediente...</p>
+            <div class="divsec2">
+              <a class="btsec2" href="desmineralizada.html">Ler mais</a>
+            </div>
+          </section>
+          <section class="sec3">
+            <h1 class="ttsec3">DESIDRATAÇÃO E SECAGEM DE IODO</h1>
+            <img class="imsec3" src="images/blog/3.PNG">
+            <p class="txsec3">O tratamento de efluentes é um dos setores mais importantes dentro de uma indústria. Uma infraestrutura adequada permite que todos os resíduos gerados durantes os processos sejam reaproveitado...</p>
+            <div class="divsec3">
+              <a class="btsec3" href="iodo.html">Ler mais</a>
+            </div>
+          </section>
+          <section class="sec4">
+            <h1 class="ttsec4">DESCARTE DE EFLUENTES</h1>
+            <img class="imsec4" src="images/blog/4.PNG">
+            <p class="txsec4">Água é matéria-prima essencial na indústria e seu uso está presente em grande parte desses processos, como consequência é gerado uma alta quantidade de resíduos líquidos denominados de efluentes...</p>
+            <div class="divsec4">
+              <a class="btsec4" href="descarte.html">Ler mais</a>
+            </div>
+          </section>
+          <section class="sec5">
+            <h1 class="ttsec5">BISSULFITO DE SÓDIO</h1>
+            <img class="imsec5" src="images/blog/5.PNG">
+            <p class="txsec5">O Bissulfito de Sódio ou Hidrogenosulfito de Sódio cuja fórmula é NaHSO3 é uma solução de sal inorgânico, é um agente moderadamente redutor, podendo liberar dióxido de enxofre...</p>
+            <div class="divsec5">
+              <a class="btsec5" href="bissulfito.html">Ler mais</a>
+            </div>  
+          </section>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

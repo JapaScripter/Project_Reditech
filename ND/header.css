@@ -1,0 +1,78 @@
+/*=====DESKTOP MODE=====*/
+  /*|Header|*/
+  #header {
+    /*display*/
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 3vw;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    z-index: 1000;
+  }
+  .navUlista {
+    /*font*/
+    text-decoration: none;
+    list-style-type: none;
+    /*display*/
+    position: relative;
+    display: inline-flex;
+    margin: 0 1vw;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLista {
+    /*font*/
+    font-family:'Inter';
+    font-size: 1vw;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.5vw;
+    color: #000000;
+    /*display*/
+    display: flex;
+    margin: 0 1vw;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLista:hover {
+    /*font*/
+    color: #0039A6;
+    /*display*/
+    display: flex;
+    margin: 0 1vw;
+    padding: 0;
+    /*cursor*/
+    cursor: pointer;
+  }
+  .imhd {
+    /*display*/
+    width: 12vw;
+  }
+  /*|Header|*/
+/*=====DESKTOP MODE=====*/
+
+/*=====MOBILE MODE=====*/
+  @media screen and (max-width: 768px) {
+    /*|Header|*/
+    #header {
+      /*display*/
+      height: 20vw;
+    }
+    .navUlista {
+      /*display*/
+      flex-wrap: wrap;
+    }
+    .navLista {
+      /*font*/
+      font-size: 15px;
+    }
+    /*|Header|*/
+  }
+/*=====MOBILE MODE=====*/

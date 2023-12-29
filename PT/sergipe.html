@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="sergipe.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="images/trevoright.png"><h1 class="tt1sec1">USINA TERMOELÉTRICA PORTO DE SERGIPE</h1><img class="im2sec1" src="images/cases/usinaportoalegre.png">
+          </div>
+          <p class="tx1sec1">
+            Na Usina termoelétrica Porto de Sergipe a Reditech desenvolveu um software de controle e realizou o comissionamento do sistema de captação de água do mar que consiste em dessalinizar a água através do processo de osmose reversa e assim fornecer água desmineralizada para as caldeiras de recuperação.
+            <br><br>
+            O sistema é constituído por um sistema de bombas de captação de água do mar, tanques de coagulação, floculação e clarificação. A água clarificada passa por filtros multimidia e um sistema de osmose reversa.
+            <br><br>
+            Seu funcionamento básico é feito pelo bombeamento da água bruta proveniente do mar para um sistema de tanques onde ocorre a dosagem de químicos para a coagulação, floculação e clarificação da água. Esta água é enviada para um tanque de água clarificada de onde é bombeada para um filtro Multimidia constituído de leitos filtrantes de antracito, areia, granada e pedregulho.
+            <br><br>
+            Após passagem pelo Filtro Multimidia a água é encaminhada para a Osmose Reversa. O permeado proveniente da Osmose será encaminhado para o Tanque de Água Permeada e o rejeito gerado será enviado para o Tanque de Efluente. O permeado é bombeado para os trocadores de leito misto de onde se obtém a água desmineralizada que irá ser utilizada nas caldeiras da termelétrica.
+            <br><br>
+            <b>“Na Usina termoelétrica Porto de Sergipe a Reditech desenvolveu um software de controle e realizou o comissionamento do sistema de captação de água do mar”</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

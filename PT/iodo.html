@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="iodo.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="images/trevoright.png"><h1 class="tt1sec1">DESIDRATAÇÃO E SECAGEM DE IODO</h1><img class="im2sec1" src="images/blog/3.PNG">
+          </div>
+          <p class="tx1sec1">
+            O tratamento de efluentes é um dos setores mais importantes dentro de uma indústria. Uma infraestrutura adequada permite que todos os resíduos gerados durantes os processos sejam reaproveitados de maneira inteligente e ecológica.
+            <br><br>
+            Muito se sabe sobre o reaproveitamento dos resíduos líquidos que possuem diversas utilidades, porém a parte sólida (lodo) proveniente das estações de tratamento de água também pode ser reaproveitada.
+            <br><br>
+            O lodo pode ser gerado tanto pelo tratamento de ETE quanto pelo de ETA, sua composição em maior parte é por água, o restante sendo a parte mais sólida pode ser orgânica ou inorgânica. Para realizar o transporte desses sedimentos de forma menos custosa e para o reaproveitamento é necessário que o lodo seja desidratado, esse processo permite também o reaproveitamento da água além de diminuir o volume de resíduos facilitando seu transporte.
+            <br><br>
+            Uma das formas para realizar esse processo é através de Leitos de Secagem, em tanques retangulares recebe-se o lodo e a redução da umidade ocorre pela drenagem da água livre e pela evaporação da água liberada durante o período de secagem. Esse é um processo semelhante ao das Lagoas de Lodo, ainda não muito difundidas no Brasil. Esse também é um processo natural, que consiste em dispor o lodo em lagoas situadas em reservatórios feitos em terra ou em depressões do terreno. Apesar dos dois métodos serem naturais, a principal diferença entre eles está em seu dimensionamento, assim como em alguns detalhes construtivos e de operação.
+            <br><br>
+            <b>Secagem Solar:</b>Neste processo o lodo úmido é disposto em um leito de secagem coberto por uma estufa de plantas. O calor proveniente da radiação solar aliado a etapas mecanizadas de revolvimento de lodo realiza um processo natural de secagem.
+            <br><br>
+            <b>Secadores com Queima de Combustível:</b>Neste processo utiliza o calor para ativar a evaporação da água contida nos lodos residuais. As altas temperaturas podem ser transmitidas através do ar ou gás quente, do vapor, da água quente ou até mesmo de óleo. Quando o calor que algum desses elementos produz é transferido para a matriz de sólidos, ele promove a evaporação da água do lodo. Como esse processo libera gases consideravelmente tóxicos, eles devem ser tratados antes de sua emissão na atmosfera.
+            <br><br>
+            <b>“Muito se sabe sobre o reaproveitamento dos resíduos líquidos que possuem diversas utilidades, porém a parte sólida (lodo) proveniente das estações de tratamento de água também pode ser reaproveitada.”</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

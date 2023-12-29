@@ -1,0 +1,256 @@
+  /*|All|*/
+  @font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-Regular.ttf') format('truetype');
+  }
+  * {
+    /*font*/
+    font-family: 'Inter';
+    /*display*/
+    margin: 0;
+    padding: 0;
+  }
+  *::selection {
+    /*display*/
+    background: rgba(255, 255, 255, 0.7);
+  }
+  /*|All|*/
+
+  /*|Body|*/
+  body {
+    /*display*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  /*|Body|*/
+
+  /*|Main|*/
+  .sec1 {
+    /*display*/
+    width: 100%;
+    height: 55.5vw;
+    background: #FFFFFF;
+  }
+  .sec2 {
+    /*display*/
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 10vw;
+    justify-content: center;
+    align-items: center;
+    background: #C5C6C8;
+  }
+  .lk1sec2 {
+    /*font*/
+    text-decoration: none;
+    /*display*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*cursor*/
+    cursor: pointer;
+  }
+  .lk1sec2:hover .ic1sec2 {
+    /*display*/
+    width: 4.5vw;
+  }
+  .lk1sec2:hover .tx1sec2 {
+    /*font*/
+    font-weight: 700;
+    color: #0039A6;
+  }
+  .ic1sec2 {
+    /*display*/
+    width: 4vw;
+    height: auto;
+    transition: 0.25s ease-out;
+  }
+  .tx1sec2 {
+    /*font*/
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .sec3 {
+    /*display*/
+    display: flex;
+    width: 100%;
+    height: 30vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .im1sec3 {
+    /*display*/
+    width: 30vw;
+    height: auto;
+  }
+  .div1sec3 {
+    /*display*/
+    display: flex;
+    width: 25vw;
+    height: 15vw;
+    padding: 3vw;
+    flex-direction: column;
+    justify-content: center;
+    /*border*/
+    border: 2px solid rgba(0,57,166,0.5);
+    border-radius: 1vw;
+  }
+  .tt1sec3 {
+    /*font*/
+    color: #0039A6;
+  }
+  .ul1sec3 {
+    /*font*/
+    font-size: 15px;
+    /*display*/
+    display: flex;
+    padding: 1vw 2vw;
+    flex-direction: column;
+  }
+  .div2sec3 {
+    /*display*/
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+  }
+  .bt1sec3 {
+    /*font*/
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    /*display*/
+    display: flex;
+    width: 30%;
+    height: 2.5vw;
+    margin-top: 2vw;
+    justify-content: center;
+    align-items: center;
+    background: #1A4DAF;
+    /*border*/
+    border-radius: 0.25vw;
+    /*cursor*/
+    cursor: pointer;
+  }
+  .bt1sec3:hover {
+    /*font*/
+    font-weight: 900;
+    color: #1A4DAF;
+    /*display*/
+    background: rgba(26,77,175, 0.5);
+  }
+  .sec4 {
+    /*display*/
+    display: flex;
+    width: 100%;
+    padding: 5vw 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0071BC;
+  }
+  .div1sec4 {
+    /*display*/
+    display: flex;
+    width: 60%;
+    justify-content: left;
+    align-items: center;
+  }
+  .ic1sec4 {
+    /*display*/
+    width: 3vw;
+  }
+  .tt1sec4 {
+    /*font*/
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    /*display*/
+    padding: 1vw;
+  }
+  .div2sec4 {
+    /*display*/
+    display: flex;
+    width: 60%;
+  }
+  .tx1sec4 {
+    /*font*/
+    font-size: 15px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  /*|Main|*/
+
+  /*=====MOBILE MODE=====*/
+  @media screen and (max-width: 768px) {
+    /*|Main|*/
+    .sec1 {
+      /*display*/
+      height: 56vw;
+      padding: 20vw 0 0 0;
+    }
+    .sec2 {
+      /*display*/
+      height: 15vw;
+    }
+    .ic1sec2 {
+      /*display*/
+      width: 8vw;
+    }
+    .tx1sec2 {
+      /*font*/
+      font-size: 20px;
+    }
+    .sec3 {
+      /*display*/
+      height: 140vw;
+      flex-direction: column;
+    }
+    .im1sec3 {
+      /*display*/
+      width: 60vw;
+    }
+    .div1sec3 {
+      /*display*/
+      width: 70vw;
+      height: 50vw;
+      padding: 5vw;
+    }
+    .ul1sec3 {
+      /*display*/
+      padding: 5vw;
+    }
+    .bt1sec3 {
+      /*font*/
+      font-size: 15px;
+      /*display*/
+      height: 8vw;
+      /*border*/
+      border-radius: 2vw;
+    }
+    .div1sec4 {
+      /*display*/
+      width: 70%;
+      padding: 5vw 0;
+    }
+    .ic1sec4 {
+      /*display*/
+      width: 10vw;
+    }
+    .tt1sec4 {
+      /*display*/
+      padding: 0 5vw;
+    }
+    .div2sec4 {
+      /*display*/
+      width: 70%;
+    }
+    /*|Main|*/
+  }
+  /*=====MOBILE MODE=====*/

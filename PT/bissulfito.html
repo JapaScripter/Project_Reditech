@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech -Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="bissulfito.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="images/trevoright.png"><h1 class="tt1sec1">BISSULFITO DE SÓDIO</h1><img class="im2sec1" src="images/blog/5.PNG">
+          </div>
+          <p class="tx1sec1">
+            O Bissulfito de Sódio ou Hidrogenosulfito de Sódio cuja fórmula é NaHSO3 é uma solução de sal inorgânico, é um agente moderadamente redutor, podendo liberar dióxido de enxofre quando entra em contato com o ar, seu descarte quando feito de forma incorreta, ou seja, sendo descartado no meu meio ambiente sem neutralização pode contaminar o solo, a água e até seres vivos que vivem no meio.
+            <br><br>
+            Esse elemento tem diversas funcionabilidades dentre elas podemos destacar sua utilização no tratamento de água potável removendo o excesso de cloro e no controle de corrosão eliminando o oxigênio dissolvido presente nas linhas de água, na indústria de extração de petróleo o Bissulfito é aplicado na perfuração de poços como sequestrante de oxigênio, na indústria de alimentos funciona como conservante, antimicrobiano e antioxidante. Podendo ser usado como alvejante na indústria de papel, no sistema de resfriamento e para remover metais de resíduos líquido industriais.
+            <br><br>
+            No processo dos SKID’s de Osmose Reversa demonstrado abaixo foi feito o uso de bombas dosadoras eletromagnéticas controladas através de um sinal analógico (4 a 20 mA) gerado proporcionalmente (PID) à vazão solicitada pelo sistema. Desse modo o SKID terá uma dosagem de Bissulfito de Sódio mais precisa.
+            <br><br>
+            Para garantir a dosagem do SKID e o funcionamento eficiente das bombas, foi desenvolvida uma lógica de controle na qual monitora a disponibilidade operacional e as horas de operação de cada bomba dosadora.
+            <br><br>
+            <b>“Esse elemento tem diversas funcionabilidades dentre elas podemos destacar sua utilização no tratamento de água potável removendo o excesso de cloro e no controle de corrosão eliminando o oxigênio dissolvido”</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

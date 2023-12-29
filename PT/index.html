@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <html lang="pt"></html>
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="index.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("./header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("./footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <video width="100%" height="100%" autoplay>
+            <source src="images/home/pt.mp4" type="video/mp4">
+            Seu navegador não suporta esse vídeo.
+          </video>
+        </section>
+        <section class="sec2">
+          <a class="lk1sec2" href="">
+            <img class="ic1sec2" src="icons/whatsapp.svg">
+            <p id="tx1sec2" class="tx1sec2">Entre em Contato!!!</p>
+          </a>
+        </section>
+        <section class="sec3">
+          <div>
+            <img class="im1sec3" src="images/home/trevo.png">
+          </div>
+          <div>
+            <div class="div1sec3">
+              <h2 id="tt1sec3" class="tt1sec3">ALIMENTOS E BEBIDAS</h2>
+              <ul class="ul1sec3">
+                <li id="li1">Ensilagem;</li>
+                <li id="li2">Cozimento;</li>
+                <li id="li3">Fermentação;</li>
+                <li id="li4">Filtração;</li>
+                <li id="li5">Envasamento;</li>
+                <li id="li6">Pasteurização.</li>
+              </ul>
+            </div>
+            <div class="div2sec3">
+              <a id="bt1sec3" class="bt1sec3" href="nossosservicos.html">Outros</a>
+            </div>
+          </div>
+        </section>
+        <section class="sec4">
+          <div class="div1sec4">
+            <img class="ic1sec4" src="images/trevodown.png">
+            <h2 id="tt1sec4" class="tt1sec4">
+              Bem-vindo a Reditech Automation!
+            </h2>
+          </div>
+          <div class="div2sec4">
+            <p id="tx1sec4" class="tx1sec4">
+              Somos uma empresa líder em soluções de automação industrial, dedicada a impulsionar a eficiência, a produtividade e a qualidade em diversos setores. Com uma equipe altamente qualificada e apaixonada pelo que faz, buscamos constantemente inovar e entregar as melhores soluções tecnológicas para os nossos clientes.
+              Navegue em nosso site para conhecer mais sobre nossos serviços, produtos e projetos anteriores. Estamos prontos para ajudá-lo a alcançar a automação inteligente e impulsionar o sucesso do seu negócio.
+              Estamos ansiosos para colaborar com você e tornar sua empresa mais competitiva no mercado em constante evolução da automação industrial.
+            </p>
+          </div>  
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+</html>

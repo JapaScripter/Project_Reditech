@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="nestle.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="images/trevoright.png"><h1 class="tt1sec1">NESTLE-FEIRA DE SANTANA-BAHIA</h1><img class="im2sec1" src="images/cases/nestle.png">
+          </div>
+          <p class="tx1sec1">
+            Na Nestle em Feira de Santana – BA a Reditech desenvolveu o software de controle e realizou o comissionamento do sistema que consiste em:
+            <br><br>
+          </p>
+          <ul class="ul1sec1">
+            <li>Sistema de osmose reversa para fornecimento de água desmineralizada;</li>
+            <br><br>
+            <li>Tanque de água bruta;</li>
+            <br><br>
+            <li>Filtro multimédia, um filtro de carvão ativado e um sistema de osmose reversa;</li>
+            <br><br>
+            <li>Seu funcionamento básico consiste no bombeamento da água bruta proveniente do poço e armazenada no Tanque de 20 m³ para um Filtro Multimidia constituído de leitos filtrantes de antracito, areia, granada e pedregulho.</li>
+            <br><br>
+          </ul>
+          <p class="tx2sec1">
+            Na linha de alimentação da Sistema de Osmose Reversa, são medidos a presença de Cloro, ph e a Turbidez. E caso necessário será dosado o NaOH para o ajuste de pH e na sequência dosado o Anti-Incrustante. O permeado será encaminhado para o Tanque de Água Permeada e o rejeito gerado será enviado para o Tanque de Efluente.
+          </p>
+          <br><br>
+          <p class="tx3sec1">
+            <b>“Na Nestle em Feira de Santana – BA a Reditech desenvolveu o software de controle e realizou o comissionamento do sistema.”</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

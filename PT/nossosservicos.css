@@ -1,0 +1,524 @@
+/*|All|*/
+@font-face {
+  font-family: 'Inter';
+  src: url('../font/Inter-Regular.ttf') format('truetype');
+}
+* {
+  /*font*/
+  font-family: 'Inter';
+  /*display*/
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  /*display*/
+  background: rgba(255, 255, 255, 0.7);
+}
+/*|All|*/
+
+/*|Body|*/
+body {
+  /*display*/
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*|Body|*/
+
+/*|Header|*/
+#header {
+  /*display*/
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 3vw;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  z-index: 1000;
+}
+.navUlista {
+  /*font*/
+  text-decoration: none;
+  list-style-type: none;
+  /*display*/
+  display: inline-flex;
+  margin: 0 1vw;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.navLista {
+  /*font*/
+  font-family:'Inter';
+  font-size: 1vw;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.5vw;
+  color: #000000;
+  /*display*/
+  display: flex;
+  margin: 0 1vw;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.navLista:hover {
+  /*font*/
+  color: #0039A6;
+  /*display*/
+  display: flex;
+  margin: 0 1vw;
+  padding: 0;
+  /*cursor*/
+  cursor: pointer;
+}
+.imhd {
+  /*display*/
+  width: 12vw;
+}
+/*|Header|*/
+
+/*|Main|*/
+.sec1 {
+  /*display*/
+  width: 100%;
+  height: 50vw;
+  background: #FFFFFF;
+}
+.sec2 {
+  /*display*/
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 10vw;
+  justify-content: center;
+  align-items: center;
+  background: #C5C6C8;
+}
+.lk1sec2 {
+  /*font*/
+  text-decoration: none;
+  /*display*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*cursor*/
+  cursor: pointer;
+}
+.lk1sec2:hover .ic1sec2 {
+  /*display*/
+  width: 4.5vw;
+}
+.lk1sec2:hover .tx1sec2 {
+  /*font*/
+  font-weight: 700;
+  color: #0039A6;
+}
+.ic1sec2 {
+  /*display*/
+  width: 4vw;
+  height: auto;
+  transition: 0.25s ease-out;
+}
+.tx1sec2 {
+  /*font*/
+  font-size: 15px;
+  font-weight: 300;
+  color: #000000;
+}
+.sec3 {
+  /*display*/
+  display: flex;
+  width: 100%;
+  height: 30vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.div1sec3 {
+  /*display*/
+}
+.im1sec3 {
+  /*display*/
+  width: 30vw;
+  height: auto;
+}
+.div2sec3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div3sec3 {
+  /*display*/
+  display: flex;
+  width: 25vw;
+  height: 10vw;
+  margin-left: 5vw;
+  padding: 3vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  /*border*/
+  border: 2px solid rgba(0,57,166, 0.5  );
+  border-radius: 1vw;
+}
+.tt1sec3 {
+  /*font*/
+  color: #0039A6;
+}
+.ul1sec3 {
+  /*font*/
+  font-size: 15px;
+  /*display*/
+  display: flex;
+  padding: 1vw 2vw;
+  flex-direction: column;
+}
+.div4sec3 {
+  /*display*/
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+}
+.bt1sec3 {
+  /*font*/
+  font-size: 13px;
+  text-align: center;
+  color: #FFFFFF;
+  /*display*/
+  display: flex;
+  width: 30%;
+  height: 2.5vw;
+  margin-top: 2vw;
+  justify-content: center;
+  align-items: center;
+  background: #1A4DAF;
+  /*border*/
+  border-radius: 0.25vw;
+  /*cursor*/
+  cursor: pointer;
+}
+.bt1sec3:hover {
+  /*font*/
+  font-weight: 900;
+  color: #1A4DAF;
+  /*display*/
+  background: rgba(26,77,175, 0.5);
+}
+.sec4 {
+  /*display*/
+  display: flex;
+  width: 100%;
+  height: 30vw;
+  padding: 5vw 0;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background: #0071BC;
+}
+.div1sec4 {
+  /*display*/
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.ic1sec4 {
+  /*display*/
+  width: 4vw;
+}
+.tt1sec4 {
+  /*font*/
+  font-size: 15px;
+  font-weight: 700;
+  color: #FFFFFF;
+  /*display*/
+}
+.div2sec4 {
+  /*display*/
+  display: flex;
+  width: 60%;
+}
+.tx1sec4 {
+  /*font*/
+  font-size: 15px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+/*|Main|*/
+
+/*|Footer|*/
+#footer {
+  /*display*/
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 15vw;
+  margin: 0;
+  padding: 0;
+  bottom: revert;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #D9D9D9;
+  z-index: 1000;
+}
+.div1footer {
+  /*display*/
+  display: flex;
+  width: 100%;
+  height: 15vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.div2footer {
+  /*font*/
+  text-align: left;
+  /*display*/
+  display: flex;
+  margin-left: 20vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div3footer {
+  /*display*/
+  display: flex;
+  width: auto;
+  height: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.div4footer {
+  /*display*/
+  display: flex;
+  width: auto;
+  height: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.div5footer {
+  /*display*/
+  display: flex;
+  width: auto;
+  height: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.div6footer {
+  /*display*/
+  display: flex;
+  width: auto;
+  height: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.div7footer {
+}
+.tt1footer {
+  /*font*/
+  font-size: 15px;
+  /*display*/
+  margin-right: 20vw;
+}
+.div8footer {
+}
+.ic1footer {
+  /*display*/
+  position: relative;
+  right: 0.55vw;
+}
+.ic2footer {
+  /*display*/
+  position: relative;
+  right: 0.75vw;
+}
+.ic3footer {
+  /*display*/
+  position: relative;
+  right: 0vw;
+}
+.ic4footer {
+  /*display*/
+  position: relative;
+  right: 0.25vw;
+}
+.ic5footer {
+  /*display*/
+  width: 3vw;
+  transition: 0.25s ease-in-out;
+  /*cursor*/
+  cursor: pointer;
+}
+.ic5footer:hover {
+  /*display*/
+  width: 3.5vw;
+}
+.ic6footer {
+  /*display*/
+  width: 3vw;
+  transition: 0.25s ease-in-out;
+  /*cursor*/
+  cursor: pointer;
+}
+.ic6footer:hover {
+  /*display*/
+  width: 3.5vw;
+}
+.ic7footer {
+  /*display*/
+  width: 3vw;
+  transition: 0.25s ease-in-out;
+  /*cursor*/
+  cursor: pointer;
+}
+.ic7footer:hover {
+  /*display*/
+  width: 3.5vw;
+}
+.div9footer {
+  /*display*/
+  display: flex;
+  width: 100%;
+  height: 5vw;
+  justify-content: center;
+  align-items: center;
+  background: #D9D9D9;
+}
+.txfooter {
+  /*font*/
+  font-family: DM-Sans;
+  font-weight: 300;
+  color: #000000;
+  /*display*/
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+/*|Footer|*/
+
+
+/*=====MOBILE MODE=====*/
+@media screen and (max-width: 768px) {
+  /*|Header|*/
+  #header {
+    /*display*/
+    height: 20vw;
+  }
+  .navUlista {
+    /*display*/
+    flex-wrap: wrap;
+  }
+  .navLista {
+    /*font*/
+    font-size: 15px;
+  }
+  /*|Header|*/
+
+  /*|Main|*/
+  .sec1 {
+    /*display*/
+    height: 100vw;
+  }
+  .sec3 {
+    /*display*/
+    height: 80vw;
+  }
+  .div3sec3 {
+    /*display*/
+    width: 35vw;
+    height: 40vw;
+    margin-left: 2vw;
+  }
+  .div4sec3 {
+    /*display*/
+    width: 100%;
+    justify-content: center;
+  }
+  .bt1sec3 {
+    /*display*/
+    width: 50%;
+    height: 6.5vw;
+  }
+  .sec4 {
+    /*display*/
+    height: 125vw;
+  }
+  .div1sec4 {
+    width: 80%;
+  }
+  .div2sec4 {
+    width: 80%;
+  }
+  /*|Main|*/
+
+  /*|Footer|*/
+  #footer {
+    /*display*/
+    height: 35vw;
+  }
+  .div1footer {
+    /*display*/
+    height: 25vw;
+  }
+  .div2footer {
+    /*display*/
+    height: 25vw;
+    margin-left: 0vw;
+  }
+  .div3footer {
+    /*display*/
+    height: 5vw;
+  }
+  .div4footer {
+    /*display*/
+    height: 5vw;
+  }
+  .div5footer {
+    /*display*/
+    height: 5vw;
+  }
+  .div6footer {
+    /*display*/
+    height: 5vw;
+  }
+  .tt1footer {
+    margin-right: 15vw;
+  }
+  .ic5footer{
+    width: 10vw
+  }
+  .ic5footer:hover {
+    width: 10vw;
+  }
+  .ic6footer{
+    width: 10vw
+  }
+  .ic6footer:hover {
+    width: 10vw;
+  }
+  .ic7footer{
+    width: 10vw
+  }
+  .ic7footer:hover {
+    width: 10;
+  }
+  /*|Footer|*/
+}
+/*=====MOBILE MODE=====*/
+
+/*=====TABLET MODE=====*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+/*=====TABLET MODE=====*/

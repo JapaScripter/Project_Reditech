@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech -Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="descarte.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="images/trevoright.png"><h1 class="tt1sec1">DESCARTE DE EFLUENTES</h1><img class="im2sec1" src="images/blog/4.PNG">
+          </div>
+          <p class="tx1sec1">
+            Água é matéria-prima essencial na indústria e seu uso está presente em grande parte desses processos, como consequência é gerado uma alta quantidade de resíduos líquidos denominados de efluentes industriais. Importante ressaltar que esses resíduos concentram uma grande quantidade de elementos químicos e contaminantes, que variam de acordo com o segmento industrial no qual foram utilizados.
+            <br><br>
+            Devido ao acúmulo de poluentes contidos nesses resíduos o descarte de efluentes não deve ser feito diretamente no meio ambiente, pois pode contaminar o solo e o meio ao redor. No Brasil o CONAMA (Conselho Nacional do Meio Ambiente), é o responsável por fiscalizar e garantir que as indústrias cumpram com suas responsabilidades ambientais referente ao descarte de seus efluentes.
+            <br><br>
+            Para realizar o tratamento de efluentes antes é necessário determinar o tipo carga poluidora e a quantidade de contaminantes, a água é coletada por especialistas que analisam os parâmetros que representam a carga orgânica e a carga tóxica dos efluentes.
+            <br><br>
+            O processo para o tratamento de efluentes são divididos em processos Físico, Químico e Biológico.
+            <br><br>
+            <b>Físico:</b>Processo no qual é removida toda a matéria orgânica e inorgânica em suspenção coloidal eliminando a presença de microrganismos por meio de processos de filtração em areia ou membranas, esse processo é principalmente usado para desinfecção incluindo radiação violeta.
+            <br><br>
+            <b>Processo Químico:</b>Neste processo são usados alguns elementos químicos exemplos: agentes de floculação, neutralização de pH, coagulação, desinfecção, redução e oxidação. Possibilitando a remoção de poluentes por meio de reações químicas, conservando a mistura de efluentes que será tratado nos processos seguintes sendo eles: clarificação química, eletrocoagulação, precipitação, cloração para desinfecção, oxidação por ozônio, redução de cromo hexavalente, oxidação de cianetos, precipitação de metais tóxicos e troca iônica.
+            <br><br>
+            <b>Processo Biológico:</b>Têm como objetivo remover a matéria orgânica dissolvida e em suspenção ao transformá-la em sólidos sedimentáveis e gases. O processo biológico é dividido em etapas sendo eles:
+            <br><br>
+            <b>Processo Aeróbico:</b>Utilizando lodos ativados e suas variantes podemos citar aeração prolongada, lagoas aeradas facultativas, lodos ativados convencionais e aeradas aeróbicas.
+            <br><br>
+            <b>Processo Facultativos:</b>Para esse processo é necessário a utilização de biofilmes como filtros biológicos, biocontactores e biodiscos, algumas lagoas também fazem parte desse processo (fotossintéticas e aeradas facultativas). Os biocontactores apresentam também processos biológicos aeróbios;
+            <br><br>
+            <b>“Devido ao acúmulo de poluentes contidos nesses resíduos o descarte de efluentes não deve ser feito diretamente no meio ambiente, pois..”</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

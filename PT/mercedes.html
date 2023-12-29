@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="mercedes.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="images/trevoright.png"><h1 class="tt1sec1">MERCEDES-BENZ SPOT REPAIR</h1><img class="im2sec1" src="images/cases/mercedes.jpg">
+          </div>
+          <p class="tx1sec1">
+            Consiste em um sistema com um queimador e um spray de água que são combinados para criar uma temperatura e umidade perfeitas para que a tinta possa secar uniformemente.
+            <br><br>
+            Todo o ciclo pode ser ajustado de acordo com as especificações do modelo que está sendo produzido.
+            <br><br>
+            Reditech desenvolveu o Sotfware para a IHM que auxilia o processo de operação, uma vez que há um tempo de esfriamento da cabine para que o operador possa acessar com segurança a lógica de controle no PLC, que de acordo com o modelo se ajusta automaticamente.
+            <br><br>
+            Shower Test
+            <br><br>
+            Consiste em um sistema que realiza o teste de penetração de água, onde por meio de uma esteira o veículo passa por dois estágios de 7 minutos de jatos de água.
+            <br><br>
+            Ao final desse processo o veículo passa por uma secadora ventilada para que no próximo estágio, o operador faça a verificação dos pontos de vazamento na carroceria do veículo.
+            <br><br>
+            A Reditech desenvolveu o software para a IHM e para o PLC que controla as bombas, esteira e o Interlock com a secadora, que por sua vez já possuía um controle Stand Alone.
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

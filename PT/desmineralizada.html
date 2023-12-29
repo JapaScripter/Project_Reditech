@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="desmineralizada.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="images/trevoright.png"><h1 class="tt1sec1">ÁGUA DESMINERALIZADA</h1><img class="im2sec1" src="images/blog/2.PNG">
+          </div>
+          <p class="tx1sec1">
+            A água desmineralizada também conhecida como água deionizada é caracterizada pela sua pureza sendo livre de minerais, íons e metais pesados. Costuma ser utilizada em equipamentos industriais além de ser ingrediente na fabricação de bebidas, alimentos e cosméticos. Vale ressaltar que apesar de pura ela é imprópria para o consumo além de não suprir sua sede ela também é inútil para o corpo, pois não possui sais minerais necessários para a manutenção e equilíbrio do nosso organismo.
+            O processo de desmineralização da água pode ser feito de diversas maneiras, sendo elas:
+            <br><br>
+            <b>Destilação:</b>Considerada a primeira forma utilizada para remoção de sais da água, porém possui um alto consumo energético e seu resultado não elimina completamente a concentração de sais na água.
+            <br><br>
+            <b>Processos de Troca Iônica:</b>Esse processo é composto por leitos catiônicos, aniônicos e leitos mistos. Onde nos dois primeiros, 99,5% dos sais são eliminados e o residual apenas consegue se extraído através do leito misto.
+            Esse tratamento permite que os íons sejam dissolvidos na água, como o magnésio, cloreto, sílica e cálcio. Esse sistema utiliza resinas de troca-pequenas esferas plásticas que possuem superfícies ligadas aos íons usados na troca.
+            A água deve passar por um ou mais leitos até que eles fiquem carregados de íons e através de um processo químico, realizar a desmineralização da água.
+            Além do filtro catiônico e do filtro aniônico, o desmineralizador possui um sistema de pressurização, filtro de zeólita que reterá os sólidos, filtro de carvão e medidor de condutividade elétrica.
+            <br><br>
+            <b>Osmose reversa:</b>Processo de filtração da água no qual utiliza-se uma membrana especial para obrigá-la a fluir do meio mais concentrado para o menos concentrado, separando-a dos sais.
+            Sendo um de seus maiores pontos positivos a economia, pois este processo utiliza quantidades pequenas de produtos, usados apenas na limpeza das membranas a cada 60 a 90 dias, além de gerar uma água com alto grau de pureza. Também tem um grande potencial de reuso, de cerca de 50 a 80% dos efluentes.
+            Como ponto negativo destaca o fato de necessitar de muitos cuidados, incluindo um pré-tratamento adequado e um acompanhamento especializado das membranas para evitar a proliferação de microrganismos.
+            <br><br>
+            <b>Eletrodiálise:</b> Processo utilizado quando o objetivo principal é um nível baixo de condutividade da água. Ele não leva produtos químicos ao invés disso, usa correntes elétricas para mover íons pelas membranas de troca iônica seletiva para remover íons da água. Costuma ser utilizado em indústrias farmacêuticas.
+            <br><br>
+            <b>Abrandamento:</b>Sistema normalmente utilizado com o objetivo de tratar a água dura, ou seja, o excesso de cálcio e magnésio na água. Apesar de também usar um processo de troca iônica, sua aplicação é mais limitada, já que não é capaz de eliminar outros sais, como cloreto e sílica. Seu uso é mais comum em caldeiras de baixa pressão ou em processos que não desejam formação de espuma.
+            <br><br>
+            <b>“A água desmineralizada também conhecida como água deionizada é caracterizada pela sua pureza sendo livre de minerais, íons e metais pesados. Costuma ser utilizada em equipamentos industriais...”</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>
