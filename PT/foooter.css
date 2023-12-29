@@ -31,7 +31,7 @@
   margin-left: 20vw;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .div3footer {
   /*display*/
@@ -86,7 +86,6 @@
   /*display*/
   position: relative;
   width: 1.5vw;
-  right: 1vw;
   padding: 1vw;
 }
 .ic3footer {
@@ -100,7 +99,6 @@
   /*display*/
   position: relative;
   width: 1.5vw;
-  left: 0.3vw;
   padding: 1vw;
 }
 .ic5footer {
