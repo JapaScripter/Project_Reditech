@@ -247,11 +247,114 @@ body {
   /*|Main|*/
   .sec1 {
     /*display*/
-    height: 100vw;
+    height: 250vw;
+  }
+  .div0sec1 {
+    /*display*/
+    width: 90%;
+    margin-top: 20vw;
+  }
+  .tt0sec1 {
+    /*font*/
+    font-size: 30px;
   }
   .sec3 {
     /*display*/
     height: 80vw;
+  }
+  .div1sec1 {
+    /*display*/
+    display: flex;
+    width: 90%;
+    margin: 0 0 1vw 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img1sec1 {
+    /*display*/
+    width: 60vw;
+    height: 45vw;
+  }
+  .div2sec1 {
+    width: 30vw;
+    height: 5vw;
+    bottom: 208vw;
+  }
+  .div4sec1 {
+    position: absolute;
+    width: 40vw;
+    right: 4vw;
+    padding: 4vw 8vw;
+    background: rgba(0,57,166, 0.8);
+    border-radius: 2vw;
+  }
+  .div5sec1 {
+    /*display*/
+    display: flex;
+    width: 90%;
+    margin: 0 0 1vw 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .div6sec1 {
+    width: 30vw;
+    height: 5vw;
+    bottom: 154vw;
+}
+  .div8sec1 {
+    /*display*/
+    position: absolute;
+    width: 40vw;
+    right: 4vw;
+    padding: 4vw 8vw;
+    background: rgba(0,57,166, 0.8);
+    border-radius: 2vw;
+  }
+  .div9sec1 {
+    /*display*/
+    display: flex;
+    width: 90%;
+    margin: 0 0 1vw 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .div10sec1 {
+    width: 30vw;
+    height: 5vw;
+    bottom: 101vw;
+  }
+  .div12sec1 {
+    position: absolute;
+    width: 40vw;
+    right: 4vw;
+    padding: 4vw 8vw;
+    background: rgba(0,57,166, 0.8);
+    border-radius: 2vw;
+  }
+  .div13sec1 {
+    /*display*/
+    display: flex;
+    width: 90%;
+    margin: 0 0 1vw 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .div14sec1 {
+    width: 30vw;
+    height: 5vw;
+    bottom: 47vw;
+  }
+  .div16sec1 {
+    position: absolute;
+    width: 40vw;
+    right: 4vw;
+    padding: 4vw 8vw;
+    background: rgba(0,57,166, 0.8);
+    border-radius: 2vw;
   }
   .div3sec3 {
     /*display*/

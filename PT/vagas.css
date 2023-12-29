@@ -1,20 +1,20 @@
-/*|All|*/
-@font-face {
-  font-family: 'Inter';
-  src: url('../font/Inter-Regular.ttf') format('truetype');
-}
-* {
-  /*display*/
-  font-family: 'Inter';
-  margin: 0;
-  padding: 0;
-}
-*::selection {
-  /*display*/
-  background: rgba(255, 255, 255, 0.7);
-}
-
-/*|All|*/
+  /*|All|*/
+  @font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Regular.ttf') format('truetype');
+  }
+  * {
+    /*font*/
+    font-family: 'Inter';
+    /*display*/
+    margin: 0;
+    padding: 0;
+  }
+  *::selection {
+    /*display*/
+    background: rgba(255, 255, 255, 0.7);
+  }
+  /*|All|*/
 
 /*|Body|*/
 body {
@@ -32,7 +32,7 @@ body {
   /*display*/
   display: flex;
   width: 100%;
-  height: 40vw;
+  height: 50vw;
   flex-direction: column;
   justify-content: start;
   align-items: center;
@@ -40,11 +40,11 @@ body {
 .ic1sec1 {
   /*display*/
   width: 3vw;
-  padding: 2vw;
+  height: auto;
 }
 .tt1sec1 {
   /*font*/
-  font-size: 40px;
+  font-size: 35px;
   color: #1A4DAF;
   /*display*/
   display: flex;
@@ -59,7 +59,7 @@ body {
   /*display*/
   display: flex;
   width: 65%;
-  height: 20vw;
+  height: 30vw;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -79,6 +79,8 @@ body {
 .ul1sec1 {
   /*font*/
   list-style-type: none;
+  /*display*/
+  width: 35vw;
 }
 .li1sec1 {
   /*font*/
@@ -88,7 +90,7 @@ body {
 }
 #nome {
   /*display*/
-  width: 24vw;
+  width: 25vw;
   /*border*/
   border: 1px solid #0039A6;
   border-radius: 0.25vw;
@@ -101,7 +103,7 @@ body {
 }
 #email {
   /*display*/
-  width: 23.75vw;
+  width: 25vw;
   /*border*/
   border: 1px solid #0039A6;
   border-radius: 0.25vw;
@@ -114,7 +116,7 @@ body {
 }
 #telefone {
   /*display*/
-  width: 18.2vw;
+  width: 19.5vw;
   /*border*/
   border: 1px solid #0039A6;
   border-radius: 0.25vw;
@@ -130,7 +132,7 @@ body {
 }
 #anexo {
   /*display*/
-  width: 16.7vw;
+  width: 18vw;
   height: 6vw;
   padding: 0.25vw;
   /*border*/
@@ -138,6 +140,28 @@ body {
   border-radius: 0.25vw;
 }
 .div3sec1 {
+  /*display*/
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.bt1sec1 {
+  /*font*/
+  font-size: 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+  /*display*/
+  display: flex;
+  width: 3vw;
+  padding: 1vw 4vw;
+  justify-content: center;
+  align-items: center;
+  background: #1A4DAF;
+  /*border*/
+  border-radius: 0.25vw
+}
+.div4sec1 {
   /*display*/
   display: flex;
   width: 50%;
@@ -160,30 +184,23 @@ body {
   /*|Main|*/
   .sec1 {
     /*display*/
-    height: 215vw;
+    height: 200vw;
   }
   .ic1sec1 {
     /*display*/
     width: 6vw;
-    height: auto;
   }
   .tt1sec1 {
     /*font*/
     font-size: 40px;
-    color: #1A4DAF;
     /*display*/
-    display: flex;
-    position: relative;
-    width: 100%;
     height: 12vw;
     margin-top: 33vw;
-    justify-content: center;
-    align-items: center;
   }
   .div1sec1 {
     /*display*/
     width: 80%;
-    height: 120vw;
+    height: 140vw;
     flex-direction: column-reverse;
   }
   .div2sec1 {
@@ -196,7 +213,7 @@ body {
   }
   #nome {
     /*display*/
-    width: 60vw;
+    width: 70vw;
   }
   .li2sec1 {
     /*display*/
@@ -204,7 +221,7 @@ body {
   }
   #email {
     /*display*/
-    width: 59.5vw;
+    width: 70vw;
   }
   .li3sec1 {
     /*display*/
@@ -212,29 +229,35 @@ body {
   }
   #telefone {
     /*display*/
-    width: 40.75vw;
+    width: 70vw;
   }
   .li4sec1 {
     /*display*/
+    width: 70vw;
     margin: 5vw 2vw;
   }
   #anexo {
     /*display*/
-    width: 37vw;
-    height: 18vw;
+    width: 32vw;
+    height: 10vw;
   }
-  .div3sec1 {
+  .bt1sec1 {
     /*display*/
-    display: flex;
+    width: 20vw;
+    height: 8vw;
+    /*border*/
+    border-radius: 2vw
+  }
+  .div4sec1 {
+    /*display*/
     width: 100%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
   }
   .im1sec1 {
     /*display*/
     width: 70vw;
     height: 50vw;
+    padding: 3vw;
   }
   /*|Main|*/
 }
