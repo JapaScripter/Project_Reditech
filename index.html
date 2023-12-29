@@ -59,6 +59,10 @@
         <section class="sec3">
           <div>
             <img class="im1sec3" src="../images/home/trevo.png">
+            <img onclick="changeLanguage('alimentos')" class="im2sec3" src="images/trevoup.png"></img>
+            <img onclick="changeLanguage('energia')" class="im3sec3" src="images/trevoleft.png"></img>
+            <img onclick="changeLanguage('saneamento')" class="im4sec3" src="images/trevoright.png"></img>
+            <img onclick="changeLanguage('automobilistica')" class="im5sec3" src="images/trevodown.png"></img>
           </div>
           <div>
             <div class="div1sec3">
@@ -98,6 +102,91 @@
       <!--|Footer|-->
       <footer></footer>
       <!--|Footer|-->
+
+      <!--|Language|-->
+      <script>
+        // Create a function to change the hash 
+        // value of the page and reload it
+        function changeLanguage(lang) {
+          location.hash = lang;
+          location.reload();
+        }
+          
+        // Define the language reload anchors
+          var language = {
+            alimentos: {
+              titulo:"VOEDINGSMIDDELEN EN DRANKEN",
+              lista1:"Volledige procescontrole met receptafhandeling;;",
+              lista2:"Stockage en verwerking basis- en afgewerkte producten;",
+              lista3:"Verpakking;",
+              lista4:"Filtratie;",
+              lista5:"Bottelen;",
+              lista6:"Pasteurisatie.",
+            },
+            automobilistica: {
+              titulo:"AUTOMOTIVE",
+              lista1:"Persen-afdeling;",
+              lista2:"Carrosserie-afdeling;",
+              lista3:"Lakafdeling;",
+              lista4:"Eindassemblage;",
+              lista5:"Hoog- en laagspanning stations;",
+              lista6:"Nutsvoorzieningen.",
+            },
+            energia: {
+              titulo:"ENERGIE COGENERATIE (WKK)",
+              lista1:"Afvalverbrandingsinstallaties;",
+              lista2:"Biogas centrales.",
+            },
+            saneamento: {
+              titulo:"WATERBEHANDELING, -ZUIVERING",
+              lista1:"Captatie;",
+              lista2:"Waterbehandeling, effluent zuivering;",
+              lista3:"Instrumentatie;",
+              lista4:"Thermo-elektrische installaties.",
+            },
+          };
+            
+          // Check if a hash value exists in the URL
+          if (window.location.hash) {
+            
+            // Set the content of the webpage
+            // depending on the hash value
+            if (window.location.hash == "#alimentos") {
+              tt1sec3.textContent = language.alimentos.titulo;
+              li1.textContent = language.alimentos.lista1;
+              li2.textContent = language.alimentos.lista2;
+              li3.textContent = language.alimentos.lista3;
+              li4.textContent = language.alimentos.lista4;
+              li5.textContent = language.alimentos.lista5;
+              li6.textContent = language.alimentos.lista6;
+            } else if (window.location.hash == "#automobilistica") {
+              tt1sec3.textContent = language.automobilistica.titulo;
+              li1.textContent = language.automobilistica.lista1;
+              li2.textContent = language.automobilistica.lista2;
+              li3.textContent = language.automobilistica.lista3;
+              li4.textContent = language.automobilistica.lista4;
+              li5.textContent = language.automobilistica.lista5;
+              li6.textContent = language.automobilistica.lista6;
+            } else if (window.location.hash == "#energia") {
+              tt1sec3.textContent = language.energia.titulo;
+              li1.textContent = language.energia.lista1;
+              li2.textContent = language.energia.lista2;
+              li3.textContent = language.energia.lista3;
+              li4.textContent = language.energia.lista4;
+              li5.textContent = language.energia.lista5;
+              li6.textContent = language.energia.lista6;
+            } else if (window.location.hash == "#saneamento") {
+              tt1sec3.textContent = language.saneamento.titulo;
+              li1.textContent = language.saneamento.lista1;
+              li2.textContent = language.saneamento.lista2;
+              li3.textContent = language.saneamento.lista3;
+              li4.textContent = language.saneamento.lista4;
+              li5.textContent = language.saneamento.lista5;
+              li6.textContent = language.saneamento.lista6;
+            }
+          }
+      </script>
+      <!--|Language|-->
     </section>
   </body>
 </html>
