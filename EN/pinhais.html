@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Cases</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="pinhais.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="../images/trevoright.png"><h1 class="tt1sec1">VOLKSWAGEN FACTORY (Frames) - SÃO JOSÉ DOS PINHAIS PR</h1><img class="im2sec1" src="../images/cases/pinhais.png">
+          </div>
+          <p class="tx1sec1">
+            Reditech carried out using the ‘VASS standard’ all programming of the new conveyor line in the Volkswagen Curitiba ‘frame’ departent for the production of the T-Cross.
+            The scope of supply included:
+            <br><br>
+          </p>
+          <ul class="ul1sec1">
+            <li>PLC programming;</li>
+            <br><br>
+            <li>Development of operating logic and HMI for the new conveyors.</li>
+            <br><br>
+          </ul>
+          <p class="tx2sec1">
+            The project consisted of the programming and start-up of 6 conveyor lines starting from the handling of the supply of skids to the final assembly of the car, totaling more than 1000 meters of conveyors.
+          </p>
+          <br><br>
+          <p class="tx3sec1">
+            <b>"Reditech programmed the new conveyor line in the ‘frame’ department at Volkswagen Curitiba using the ‘VASS standard’ for the production of the T-Cross."</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

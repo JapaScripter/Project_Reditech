@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Cases</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="perfetti.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="../images/trevoright.png"><h1 class="tt1sec1">PERFETTI VAN MELLE FACTORY - VINHEDO SP</h1><img class="im2sec1" src="../images/cases/perfetti.png">
+          </div>
+          <p class="tx1sec1">
+            At the Perfetti-Van Melle factory, Reditech developed control software for the Effluent Treatment Plant, responsible for treating the water discharged from the production area during production process throughout the year.
+            The scope of supply included:
+            <br><br>
+          </p>
+          <ul class="ul1sec1">
+            <li>Electrical design in Eplan;</li>
+            <br><br>
+            <li>Assembly of the automation and MCC panels;</li>
+            <br><br>
+            <li>Supply of operating station and engineering licenses;</li>
+            <br><br>
+            <li>Development of PLC logic and the operating screens.</li>
+            <br><br>
+          </ul>
+          <p class="tx2sec1">
+            The system consists of an anaerobic reactor, a wastewater conditioning tank, a new activated sludge system using MBR (Membrane Bioreactor) technology, as well as systems for interconnection and burning the biogas produced.
+          </p>
+          <h2 class="tt2sec1">CASE</h2>
+          <p class="tx3sec1">
+            Its basic operation consists of collecting the effluent from the production area, which will be pre-treated, equalized and treated anaerobically in the EGSB reactor (expanded granular sludge bed) and by the aerobic system consisting of:
+            <br><br>
+          </p>
+          <ul class="ul2sec1">
+            <li>Raw effluent collection pumps;</li>
+            <br><br>
+            <li>Pre-treatment: sieving, removal of grease, sand and solids, equalization tanks;</li>
+            <br><br>
+            <li>Buffer Tank and the DAF (dissolved air flotation);</li>
+            <br><br>
+            <li>Aerobic plant (activated sludge process + MBR); - Booster pumps and transfer and CIP tanks.</li>
+            <br><br>
+          </ul>
+          <p class="tx4sec1">
+            <b>"Reditech developed control software for the Effluent Treatment Station, which is responsible for treating the water discharged by the production area, during production process throughout the year."</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

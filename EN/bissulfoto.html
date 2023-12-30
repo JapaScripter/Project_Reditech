@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="bissulfoto.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="../images/trevoright.png"><h1 class="tt1sec1">THE IMPORTANCE OF ACCURATE DOSING OF SODIUM BISULFITE</h1><img class="im2sec1" src="../images/blog/1.PNG">
+          </div>
+          <p class="tx1sec1">
+            Sodium bisulphite or sodium hydrogen sulphite, whose formula is NaHSO3, is an inorganic salt solution. It is a moderately reducing agent and can release sulfur dioxide when coming in contact with air. When it is disposed of incorrectly, i.e. without neutralization, it can contaminate soil, water and even living beings in the environment.
+            <br><br>
+            But this element has several useful functions, among which we can highlight its use in the treatment of drinking water by removing excess chlorine and in corrosion control by eliminating the dissolved oxygen present in water lines, in the oil extraction industry bisulphite is used in well drilling as an oxygen holder, in the food industry it works as a preservative, antimicrobial and antioxidant. It can also be used as a bleach in the paper industry, also used in cooling systems and to remove metals from liquid industrial waste.
+            <br><br>
+            The Reverse Osmosis -SKID process uses dosing pumps controlled by an analog signal (4 to 20 mA) generated proportionally (PID) to the flow requested by the system. In this way, the SKID will have a more precise dosage of sodium bisulphite.
+            <br><br>
+            To guarantee the accurate dosage of the SKID and the efficient operation of the pumps, a control logic was developed which monitors the operational availability and operating hours of each dosing pump.
+            <br><br>
+            In short, it can be concluded that monitoring and accurate dosing control of sodium bisulphite through a Reverse Osmosis SKID allows the operator to have better control of the optimum quantity of components required, as well as better following up on operating hours of the dosing pumps, and thus optimizing operation time to obtain a much more (cost) efficient process.
+            <br><br>
+            <b>"The Reverse Osmosis SKID process uses dosing pumps controlled by an analog signal (4 to 20 mA) generated proportionally (PID)..."</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

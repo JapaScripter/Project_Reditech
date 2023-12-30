@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Cases</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="sergipe.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="../images/trevoright.png"><h1 class="tt1sec1">PORTO DE SERGIPE - THERMOELECTRIC PLANT</h1><img class="im2sec1" src="../images/cases/usinaportoalegre.png">
+          </div>
+          <p class="tx1sec1">
+            At the Porto de Sergipe- thermoelectric plant, Reditech developed control software and commissioned the seawater collection system, which consists of desalinate the water through the reverse osmosis process and thus supply demineralized water  to the recovery boilers.
+            <br><br>
+            The system consists of a system of seawater collection pumps, coagulation, flocculation and coagulation, flocculation and clarification tanks. The clarified water passes through multi-media filters and a reverse osmosis system.
+            <br><br>
+            Its basic operation involves pumping the raw water from the sea into a system of tanks where chemicals are dosed to coagulate, flocculate and clarify the water. This water is then sent to a clarified water tank from where it is pumped via a Multimidia filter made up of anthracite, sand, garnet and pebble filter beds.
+            <br><br>
+            After passing through the Multimidia Filter, the water is sent to Reverse Osmosis. The permeate from the Osmosis will be sent to the Permeated Water Tank and the generated waste will be sent to the Effluent Tank. The permeate is pumped to the mixed bed exchangers from which demineralized water is obtained for use in the boilers of the thermoelectric plant.
+            <br><br>
+            <b>"At the Porto de Sergipe - thermoelectric plant, Reditech developed control software and did the commissioning of the seawater collection system"</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

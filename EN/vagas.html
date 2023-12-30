@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Vacancies</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="vagas.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("./header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("./footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <h1 class="tt1sec1"><img class="ic1sec1" src="../images/trevodown.png">Work with us!</h1>
+          <div class="div1sec1">
+            <div class="div2sec1">
+              <ul class="ul1sec1">
+                <li class="li1sec1">
+                  <label for="nome">Name:</label>
+                  <input type="text" id="nome" name="nome">
+                </li>
+                <li class="li2sec1">
+                  <label for="email">E-mail:</label>
+                  <input type="text" id="email" name="email">
+                </li>
+                <li class="li3sec1">
+                  <label for="telefone">Telephone/Cell:</label>
+                  <input type="text" id="telefone" name="telefone">
+                </li>
+                <li class="li4sec1">
+                  <label for="anexo">Submit your CV:</label>
+                  <input type="file" id="anexo" name="anexo">
+                </li>
+              </ul>
+              <div class="div3sec1">
+                <a class="bt1sec1" href="">Send</a>
+              </div>
+            </div>
+            <div class="div3sec1">
+              <img class="im1sec1" src="../images/vacancies/vagas.PNG">
+            </div>
+          </div>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

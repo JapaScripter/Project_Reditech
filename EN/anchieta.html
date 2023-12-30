@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Cases</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="anchieta.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="../images/trevoright.png"><h1 class="tt1sec1">VOLKSWAGEN FACTORY (Buffer) - ANCHIETA SP</h1><img class="im2sec1" src="../images/cases/anchieta.jpg">
+          </div>
+          <p class="tx1sec1">
+            Reditech programmed the buffer for engines and suspension mounting plates for the Polo, Virtus and Saveiro in ALA 14 department – ‘combining engine and body’.
+            <br><br>
+            The scope of supply included:
+            <br><br>
+          </p>
+          <ul class="ul1sec1">
+            <li>Programming of the tracking system and interface with the Volkswagen MES-system;</li>
+            <li>PLC programming;</li>
+            <li>Development of operating logic and HMI for the new models.</li>
+          </ul>
+          <br><br>
+          <p class="tx2sec1">
+            The system consists of a buffer of roll tables which, in addition to storing the assembly boards, the system also manages and organizes the order and sequence of supply of boards to the line. According to the chassis list supplied by Volkswagen's central system, each car model has its own specific plate.
+            <br><br>
+          </p>
+          <p class="tx3sec1">
+            <b>"Reditech carried out the programming of the assembly plate buffer for the engine and suspension of the Polo, Virtus and Saveiro in ALA 14 department - Combining engine and body."</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

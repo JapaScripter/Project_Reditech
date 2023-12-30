@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <html lang="pt"></html>
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="index.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("./header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("./footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <video width="100%" height="100%" autoplay>
+            <source src="../images/home/pt.mp4" type="video/mp4">
+            Your browser does not support this video.
+          </video>
+        </section>
+        <section class="sec2">
+          <a class="lk1sec2" href="tel:+551143185293">
+            <img class="ic1sec2" src="../icons/whatsapp.svg">
+            <p id="tx1sec2" class="tx1sec2">Contact!!!</p>
+          </a>
+        </section>
+        <section class="sec3">
+          <div>
+            <img class="im1sec3" src="../images/home/trevo.png">
+            <img onclick="changeLanguage('alimentos')" class="im2sec3" src="../images/trevoup.png"></img>
+            <img onclick="changeLanguage('energia')" class="im3sec3" src="../images/trevoleft.png"></img>
+            <img onclick="changeLanguage('saneamento')" class="im4sec3" src="../images/trevoright.png"></img>
+            <img onclick="changeLanguage('automobilistica')" class="im5sec3" src="../images/trevodown.png"></img>
+          </div>
+          <div>
+            <div class="div1sec3">
+              <h2 id="tt1sec3" class="tt1sec3">FOOD AND BEVERAGES</h2>
+              <ul class="ul1sec3">
+                <li id="li1">Ensiling;</li>
+                <li id="li2">Total process control including recipe managment;</li>
+                <li id="li3">Fermentation;</li>
+                <li id="li4">Filtration;</li>
+                <li id="li5">Filling;</li>
+                <li id="li6">Pasteurization.</li>
+              </ul>
+            </div>
+            <div class="div2sec3">
+              <a id="bt1sec3" class="bt1sec3" href="nossosservicos.html">Others</a>
+            </div>
+          </div>
+        </section>
+        <section class="sec4">
+          <div class="div1sec4">
+            <img class="ic1sec4" src="../images/trevodown.png">
+            <h2 id="tt1sec4" class="tt1sec4">
+              Welcome to Reditech Automation!
+            </h2>
+          </div>
+          <div class="div2sec4">
+            <p id="tx1sec4" class="tx1sec4">
+              We are a leading company in industrial automation solutions, dedicated to boosting efficiency, productivity and quality in various sectors. With a highly qualified team that is passionate about what it does, we constantly seek to innovate and deliver the best technological solutions for our customers.
+              Browse our website to find out more about our services, products and previous projects. We are available to help you achieve intelligent automation and drive your business success.
+              We look forward to collaborating with you and making your company more competitive in the ever-evolving market of industrial automation.
+            </p>
+          </div>  
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+
+      <!--|Language|-->
+      <script>
+        // Create a function to change the hash 
+        // value of the page and reload it
+        function changeLanguage(lang) {
+          location.hash = lang;
+          location.reload();
+        }
+          
+        // Define the language reload anchors
+          var language = {
+            alimentos: {
+              titulo:"FOOD AND BEVERAGES",
+              lista1:"Ensiling;",
+              lista2:"Total process control including recipe managment;",
+              lista3:"Fermentation;",
+              lista4:"Filtration;",
+              lista5:"Filling;",
+              lista6:"Pasteurization.",
+            },
+            automobilistica: {
+              titulo:"AUTOMOTIVE",
+              lista1:"Presses;",
+              lista2:"Bodyshop;",
+              lista3:"Painting;",
+              lista4:"Final assembly;",
+              lista5:"Substation;",
+              lista6:"Utilities.",
+            },
+            energia: {
+              titulo:"ENERGY COGENERATION",
+              lista1:"Waste incinerators;",
+              lista2:"Biogas installations.",
+            },
+            saneamento: {
+              titulo:"SANITATION-WATER TREATMENT",
+              lista1:"Collection;",
+              lista2:"Waste water and water treatment;",
+              lista3:"Instrumentation;",
+              lista4:"Thermoelectric plants.",
+            },
+          };
+            
+          // Check if a hash value exists in the URL
+          if (window.location.hash) {
+            
+            // Set the content of the webpage
+            // depending on the hash value
+            if (window.location.hash == "#alimentos") {
+              tt1sec3.textContent = language.alimentos.titulo;
+              li1.textContent = language.alimentos.lista1;
+              li2.textContent = language.alimentos.lista2;
+              li3.textContent = language.alimentos.lista3;
+              li4.textContent = language.alimentos.lista4;
+              li5.textContent = language.alimentos.lista5;
+              li6.textContent = language.alimentos.lista6;
+            } else if (window.location.hash == "#automobilistica") {
+              tt1sec3.textContent = language.automobilistica.titulo;
+              li1.textContent = language.automobilistica.lista1;
+              li2.textContent = language.automobilistica.lista2;
+              li3.textContent = language.automobilistica.lista3;
+              li4.textContent = language.automobilistica.lista4;
+              li5.textContent = language.automobilistica.lista5;
+              li6.textContent = language.automobilistica.lista6;
+            } else if (window.location.hash == "#energia") {
+              tt1sec3.textContent = language.energia.titulo;
+              li1.textContent = language.energia.lista1;
+              li2.textContent = language.energia.lista2;
+              li3.textContent = language.energia.lista3;
+              li4.textContent = language.energia.lista4;
+              li5.textContent = language.energia.lista5;
+              li6.textContent = language.energia.lista6;
+            } else if (window.location.hash == "#saneamento") {
+              tt1sec3.textContent = language.saneamento.titulo;
+              li1.textContent = language.saneamento.lista1;
+              li2.textContent = language.saneamento.lista2;
+              li3.textContent = language.saneamento.lista3;
+              li4.textContent = language.saneamento.lista4;
+              li5.textContent = language.saneamento.lista5;
+              li6.textContent = language.saneamento.lista6;
+            }
+          }
+      </script>
+      <!--|Language|-->
+    </section>
+  </body>
+</html>

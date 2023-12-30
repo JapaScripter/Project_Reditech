@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="blog.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("./header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("./footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <div class="divmain">
+          <img class="immain" src="../images/trevoleft.png"><h1 class="ttmain">Blog</h1>
+        </div>
+        <section class="sec0">
+          <section class="sec1">
+            <h1 class="ttsec1">THE IMPORTANCE OF ACCURATE DOSING OF SODIUM BISULFITE</h1>
+            <img class="imsec1" src="../images/blog/1.PNG">
+            <p class="txsec1">Sodium bisulphite or sodium hydrogen sulphite, whose formula is NaHSO3, is an inorganic salt solution. It is a moderately reducing agent and can release sulfur dioxide when coming in contact with air. When it is disposed of incorrectly, i.e. without neutralization, it can contaminate soil, water and even living beings in the environment...</p>
+            <div class="divsec1">
+              <a class="btsec1" href="bissulfoto.html">Read more</a>
+            </div>
+          </section>
+          <section class="sec2">
+            <h1 class="ttsec2">DEMINERALIZED WATER</h1>
+            <img class="imsec2" src="../images/blog/2.PNG">
+            <p class="txsec2">Demineralized water, also known as deionized water, is characterized by its purity, being free of minerals, ions and heavy metals. It is often used in industrial equipment and is an ingredient in the manufacture of beverages, food and cosmetics. It's worth noting that although it is pure, it is unfit for consumption. In addition to not quenching your thirst, it is also useless for the body, as it lacks the mineral salts necessary for the maintenance and balance of our organism...</p>
+            <div class="divsec2">
+              <a class="btsec2" href="desmineralizada.html">Read more</a>
+            </div>
+          </section>
+          <section class="sec3">
+            <h1 class="ttsec3">SLUDGE DEWATERING AND DRYING</h1>
+            <img class="imsec3" src="../images/blog/3.PNG">
+            <p class="txsec3">Wastewater treatment is one of the most important sectors within an industry. An adequate infrastructure allows all the waste generated during the processes to be reused in an intelligent and environmentally friendly way...</p>
+            <div class="divsec3">
+              <a class="btsec3" href="iodo.html">Read more</a>
+            </div>
+          </section>
+          <section class="sec4">
+            <h1 class="ttsec4">EFFLUENT DISPOSAL</h1>
+            <img class="imsec4" src="../images/blog/4.PNG">
+            <p class="txsec4">Water is an essential raw material in industry and its use is present in most of these processes. As a result, a large amount of liquid waste called industrial effluents is generated. It is important to note that this waste concentrates a large quantity of chemical elements and contaminants, which vary according to the industrial segment in which they were used...</p>
+            <div class="divsec4">
+              <a class="btsec4" href="descarte.html">Read more</a>
+            </div>
+          </section>
+          <section class="sec5">
+            <h1 class="ttsec5">SODIUM BISULFITE</h1>
+            <img class="imsec5" src="../images/blog/5.PNG">
+            <p class="txsec5">Sodium bisulphite or sodium hydrogen sulphite, whose formula is NaHSO3, is an inorganic salt solution. It is a moderately reducing agent and can release sulphur dioxide when it comes into contact with air. When disposed of incorrectly, i.e. in the environment without neutralization, it can contaminate soil, water and even living beings...</p>
+            <div class="divsec5">
+              <a class="btsec5" href="bissulfito.html">Read more</a>
+            </div>  
+          </section>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

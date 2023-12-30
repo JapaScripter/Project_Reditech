@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Blog</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="desmineralizada.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="../images/trevoright.png"><h1 class="tt1sec1">DEMINERALIZED WATER</h1><img class="im2sec1" src="../images/blog/2.PNG">
+          </div>
+          <p class="tx1sec1">
+            Demineralized water, also known as deionized water, is characterized by its purity, being free of minerals, ions and heavy metals. It is often used in industrial equipment and is an ingredient in the manufacture of beverages, food and cosmetics. It's worth noting that although it is pure, it is unfit for consumption. In addition to not quenching your thirst, it is also useless for the body, as it lacks the mineral salts necessary for the maintenance and balance of our organism.
+            The process of demineralizing water can be done in various ways:
+            <br><br>
+            <b>Distillation:</b>Considered the first way to remove salts from water, but it is energy-intensive and does not eliminate fully the concentration of salts in the water.
+            <br><br>
+            <b>Ion Exchange Processes</b>This process consists of cationic, anionic and ‘mixed beds’. In the first two, 99.5% of the salts are eliminated and the residual can only be extracted through the mixed bed.
+            This treatment allows ions to be dissolved in the water, such as magnesium, chloride, silica and calcium. This system uses exchange resins - small plastic spheres that have surfaces attached to the ions used in the exchange.
+            The water must pass through one or more beds until they become charged with ions and, through a chemical process, demineralizaing the water.
+            In addition to the cationic filter and the anionic filter, the demineralizer has a pressurization system, a zeolite filter that will retain the solids, a charcoal filter and an electrical conductivity meter.
+            <br><br>
+            <b>Reverse osmosis:</b>A water filtration process in which a special membrane is used to force water to flow from a more concentrated medium to a less concentrated one, separating it from salts.
+            One of its greatest strengths is its cost-effectiveness, as this process uses small quantities of products, used only to clean the membranes every 60 to 90 days, as well as generating water with a high degree of purity. It also has great potential for reuse of the effluent, around 50 to 80%.
+            The downside is that it requires a lot of care, including adequate pre-treatment and specialized monitoring of the membranes to prevent the proliferation of microorganisms.
+            <br><br>
+            <b>Electrodialysis:</b>A process used when the main objective is a low level of water conductivity. It does not use chemicals; instead, it uses electric currents to move ions through selective ion exchange membranes to remove ions from the water. It is often used in pharmaceutical industries.
+            <br><br>
+            <b>Softening:</b>A system normally used to treat ‘hard’ water, i.e. excess calcium and magnesium in the water. Although it also uses an ion exchange process, its application is more limited, as it is unable to eliminate other salts, such as chloride and silica. Its use is more common in low-pressure boilers or in processes that don't require the formation of foam.
+            <br><br>
+            <b>"Demineralized water, also known as deionized water, is characterized by its purity, being free of minerals, ions and heavy metals. It is often used in industrial equipment..."</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>

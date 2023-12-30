@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Reditech">
+    <meta name="author" content="Unilatem">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Reditech - Cases</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS Inside|-->
+    <link rel="stylesheet" href="nestle.css">
+    <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section class="sec1">
+          <div class="div1sec1">
+            <img class="im1sec1" src="../images/trevoright.png"><h1 class="tt1sec1">NESTLE-FEIRA DE SANTANA-BAHIA</h1><img class="im2sec1" src="../images/cases/nestle.png">
+          </div>
+          <p class="tx1sec1">
+            At Nestle in Feira de Santana - BA, Reditech developed the control software and commissioned the system, which consists of:
+            <br><br>
+          </p>
+          <ul class="ul1sec1">
+            <li>At Nestle in Feira de Santana - BA, Reditech developed the control software and commissioned the system, which consists of:Reverse osmosis system for supplying demineralized water.</li>
+            <br><br>
+            <li>Tanque de água bruta;</li>
+            <br><br>
+            <li>Raw water tank.</li>
+            <br><br>
+            <li>A multimedia filter, an activated carbon filter and a reverse osmosis system. Its basic operation consists of pumping the raw water from the well and storing this water in the 20 m³ tank via a multimedia filter made up of anthracite, sand, garnet and pebble filter beds.
+              </li>
+            <br><br>
+          </ul>
+          <p class="tx2sec1">
+            In the Reverse Osmosis System's feed line, the presence of chlorine, pH and turbidity are measured. If necessary, NaOH is dosed to adjust the pH and then the anti-fouling agent is dosed. The permeate will be sent to the Permeate Water Tank and the waste generated will be sent to the Effluent Tank.
+          </p>
+          <br><br>
+          <p class="tx3sec1">
+            <b>"At Nestle in Feira de Santana - BA, Reditech developed the control software and commissioned the system"</b>
+          </p>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+  <script rel="text/javascript" src="script.js"></script>
+</html>
