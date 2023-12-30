@@ -102,7 +102,7 @@
     .sec1 {
       /*display*/
       display: flex;
-      height: 400vw;
+      height: 380vw;
       flex-direction: column;
       justify-content: center;
       align-items: center;

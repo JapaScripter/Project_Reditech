@@ -72,10 +72,10 @@ body {
   width: 60%;
   margin: 2vw;  
 }
-  .im2sec1 {
-    /*display*/
-    width: 30vw;
-  }
+.im2sec1 {
+  /*display*/
+  width: 30vw;
+}
 .sec2 {
   /*display*/
   display: flex;

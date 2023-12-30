@@ -67,10 +67,13 @@
     .navUlista {
       /*display*/
       flex-wrap: wrap;
+      height: 100%;
     }
     .navLista {
       /*font*/
       font-size: 15px;
+      /*display*/
+      margin: 0 1vw;
     }
     /*|Header|*/
   }

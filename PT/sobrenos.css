@@ -1,20 +1,20 @@
-/*|All|*/
-@font-face {
-  font-family: 'Inter';
-  src: url('../font/Inter-Regular.ttf') format('truetype');
-}
-* {
-  /*font*/
-  font-family: 'Inter';
-  /*display*/
-  margin: 0;
-  padding: 0;
-}
-*::selection {
-  /*display*/
-  background: rgba(255, 255, 255, 0.7);
-}
-/*|All|*/
+  /*|All|*/
+  @font-face {
+    font-family: 'Inter';
+    src: url('../font/Inter-Regular.ttf') format('truetype');
+  }
+  * {
+    /*font*/
+    font-family: 'Inter';
+    /*display*/
+    margin: 0;
+    padding: 0;
+  }
+  *::selection {
+    /*display*/
+    background: rgba(255, 255, 255, 0.7);
+  }
+  /*|All|*/
 
 /*|Body|*/
 body {
@@ -45,10 +45,9 @@ body {
   justify-content: left;
   align-items: center;
 }
-
 .im1sec1 {
   /*display*/
-  width: 2vw;
+  width: 2.5vw;
 }
 .tt1sec1 {
   /*font*/
@@ -61,12 +60,9 @@ body {
   /*display*/
   display: flex;
   width: 70%;
+  height: 25vw;
   justify-content: left;
   align-items: center;
-}
-.im2sec1 {
-  /*display*/
-  width: 30vw;
 }
 .tx1sec1 {
   /*font*/
@@ -76,6 +72,10 @@ body {
   width: 60%;
   margin: 2vw;  
 }
+  .im2sec1 {
+    /*display*/
+    width: 30vw;
+  }
 .sec2 {
   /*display*/
   display: flex;
@@ -138,19 +138,21 @@ body {
   display: flex;
   position: absolute;
   top: 82vw;
-  left: 36vw;
+  left: 44vw;
   justify-content: center;
   align-items: center;
 }
 .im2sec3 {
   /*display*/
-  width: 3vw;
+  width: 3.5vw;
 }
 .tt1sec3 {
   /*font*/
   font-size: 30px;
   font-weight: 900;
   color: #FFFFFF;
+  /*display*/
+  padding: 0 1vw;
 }
 .div3sec3 {
   /*display*/
@@ -191,7 +193,7 @@ body {
 .ul5sec3 {
   /*display*/
   position: relative;
-  left: -4vw;
+  left: 0vw;
 }
 .div2TTsec3 {
   /*display*/
@@ -234,12 +236,14 @@ body {
 }
 .im2sec4 {
   /*display*/
-  width: 3vw;
+  width: 3.5vw;
 }
 .tt1sec4 {
   /*font*/
   font-size: 30px;
   color: #0039A6;
+  /*display*/
+  padding: 0 1vw;
 }
 .div2sec4 {
   /*display*/
@@ -263,21 +267,19 @@ body {
   /*|Main|*/
   .sec1 {
     /*display*/
-    height: 200vw;
+    height: 210vw;
+    justify-content: flex-start;
   }
   .div1sec1 {
     /*display*/
     width: 70%;
-    height: 5vw;
-    margin-top: 25vw;
+    height: 10vw;
+    margin-top: 30vw;
     justify-content: center;
   }
   .tt1sec1 {
     /*font*/
-    font-size: 25px;
-    color: #0039A6;
-    /*display*/
-    margin-left: 1vw;
+    font-size: 35px;
   }
   .div2sec1 {
     /*display*/
@@ -287,6 +289,11 @@ body {
     /*display*/
     width: 100%;
   }
+  .im2sec1 {
+    /*display*/
+    width: 50vw;
+    padding: 5vw;
+  }
   .sec2 {
     /*display*/
     height: 80vw;
@@ -295,19 +302,19 @@ body {
     /*display*/
     width: 30vw;
     height: 25vw;
-    top: 8vw;
-    left: 6vw;
+    top: 13vw;
+    left: 12vw;
   }
   .im1sec2 {
     /*display*/
-    width: 120vw;
+    width: 100%;
   }
   .div2sec2 {
     /*display*/
     width: 50vw;
     height: 40vw;
-    top: 30vw;
-    left: 45vw;
+    top: 25vw;
+    left: 40vw;
   }
   .sec3 {
     /*display*/
@@ -316,14 +323,14 @@ body {
   .div1sec3 {
     /*display*/
     height: 26.5vw;
-  }
+  } 
   .div1sec3::before {
-    top: 280vw;
+    top: 290vw;
   }
   .div2sec3 {
     /*display*/
-    top: 290vw;
-    left: 20vw;
+    top: 300vw;
+    left: 20vw
   }
   .div3sec3 {
     /*display*/
@@ -332,9 +339,9 @@ body {
   }
   .divTTsec3 {
     /*display*/
-    width: 35vw;
+    width: 42vw;
     height: 50vw;
-    margin: 4vw;
+    margin: 1vw;
   }
   .ul1sec3 {
     /*display*/
@@ -349,7 +356,7 @@ body {
   .ul3sec3 {
     /*display*/
     position: relative;
-    right: -4vw;
+    right: -2vw;
   }
   .ul4sec3 {
     /*display*/
@@ -359,7 +366,7 @@ body {
   .ul5sec3 {
     /*display*/
     position: relative;
-    right: -4vw;
+    left: 3vw;
   }
   .ul6sec3 {
     /*display*/
@@ -369,12 +376,12 @@ body {
   .ul7sec3 {
     /*display*/
     position: relative;
-    right: -4vw;
+    left: 3vw;
   }
   .ul8sec3 {
     /*display*/
     position: relative;
-    right: -4vw;
+    right: -2vw;
   }
   .sec4 {
     /*display*/
