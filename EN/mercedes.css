@@ -88,7 +88,7 @@
     .sec1 {
       /*display*/
       display: flex;
-      height: 100vw;
+      height: 340vw;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -96,7 +96,7 @@
     .div1sec1 {
       /*display*/
       display: flex;
-      width: 70%;
+      width: 90%;
       flex-direction: row;
       justify-content: left;
       align-items: center;
@@ -107,7 +107,7 @@
     }
     .tt1sec1 {
       /*font*/
-      font-size: 30px;
+      font-size: 20px;
       font-weight: 300;
       color: #0039A6;
       /*display*/
@@ -115,7 +115,7 @@
     }
     .im2sec1 {
       /*display*/
-      width: 15vw;
+      width: 30vw;
       height: auto;
       margin: 1vw;
       /*border*/

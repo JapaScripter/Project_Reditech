@@ -88,13 +88,12 @@
     width: 30vw;
     height: auto;
   }
-
   .im2sec3{
     /*display*/
     position: absolute;
     display: flex;
     width: 17.5vw;
-    bottom: 26.3vw;
+    bottom: 29vw;
     left: 24.2vw;
     opacity: 0.1;
     /*border*/
@@ -107,7 +106,7 @@
     position: absolute;
     display: flex;
     width: 12.5vw;
-    bottom: 30vw;
+    bottom: 32.9vw;
     left: 33.2vw;
     opacity: 0.1;
     /*border*/
@@ -120,7 +119,7 @@
     position: absolute;
     display: flex;
     width: 12.5vw;
-    bottom: 30vw;
+    bottom: 32.9vw;
     left: 20.1vw;
     opacity: 0.1;
     /*border*/
@@ -133,7 +132,7 @@
     position: absolute;
     display: flex;
     width: 13vw;
-    bottom: 39vw;
+    bottom: 41.8vw;
     left: 26.4vw;
     opacity: 0.1;
     /*border*/
@@ -141,7 +140,6 @@
     /*cursor*/
     cursor: pointer;
   }
-
   .div1sec3 {
     /*display*/
     display: flex;
@@ -269,6 +267,30 @@
     .im1sec3 {
       /*display*/
       width: 60vw;
+    }
+    .im2sec3{
+      /*display*/
+      width: 35.5vw;
+      top: 122vw;
+      left: 30.5vw;
+    }
+    .im3sec3{
+      /*display*/
+      width: 26.5vw;
+      top: 103.2vw;
+      left: 49vw;
+    }
+    .im4sec3{
+      /*display*/
+      width: 26.5vw;
+      top: 103.2vw;
+      left: 21vw;
+    }
+    .im5sec3{
+      /*display*/
+      width: 30vw;
+      top: 100vw;
+      left: 33.3vw;
     }
     .div1sec3 {
       /*display*/
