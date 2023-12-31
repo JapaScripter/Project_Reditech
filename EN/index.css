@@ -93,7 +93,7 @@
     position: absolute;
     display: flex;
     width: 17.5vw;
-    bottom: 29vw;
+    bottom: 26vw;
     left: 24.2vw;
     opacity: 0.1;
     /*border*/
@@ -106,7 +106,7 @@
     position: absolute;
     display: flex;
     width: 12.5vw;
-    bottom: 32.9vw;
+    bottom: 29.9vw;
     left: 33.2vw;
     opacity: 0.1;
     /*border*/
@@ -119,7 +119,7 @@
     position: absolute;
     display: flex;
     width: 12.5vw;
-    bottom: 32.9vw;
+    bottom: 29.9vw;
     left: 20.1vw;
     opacity: 0.1;
     /*border*/
@@ -132,7 +132,7 @@
     position: absolute;
     display: flex;
     width: 13vw;
-    bottom: 41.8vw;
+    bottom: 38.8vw;
     left: 26.4vw;
     opacity: 0.1;
     /*border*/
@@ -159,6 +159,7 @@
   .ul1sec3 {
     /*font*/
     font-size: 15px;
+    list-style-type: none;
     /*display*/
     display: flex;
     padding: 1vw 2vw;
