@@ -159,6 +159,7 @@
   .ul1sec3 {
     /*font*/
     font-size: 15px;
+    list-style-type: none;
     /*display*/
     display: flex;
     padding: 1vw 2vw;

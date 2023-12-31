@@ -72,10 +72,10 @@ body {
   width: 60%;
   margin: 2vw;  
 }
-  .im2sec1 {
-    /*display*/
-    width: 30vw;
-  }
+.im2sec1 {
+  /*display*/
+  width: 30vw;
+}
 .sec2 {
   /*display*/
   display: flex;
@@ -262,6 +262,115 @@ body {
 }
 /*|Main|*/
 
+/*Modal*/
+.modal1 {
+  /*display*/
+  position:fixed;
+  display:none;
+  width:100%;
+  height:100%;
+  padding: 5vw 0;
+  top:0;
+  left:0;
+  overflow: auto;
+  background-color:rgb(0,0,0,0.5);
+  z-index:3;
+}
+.modaldiv1 {
+  /*display*/
+  position:relative;
+  display: flex;
+  width: 50vw;
+  height: 43vw;
+  margin:auto;
+  padding:0;
+  flex-direction: column;
+  outline:0;
+  background-color:#0039A6;
+  /*border*/
+  border-radius: 2vw;
+}
+.modaldiv2 {
+  /*display*/
+  display: flex;
+  width: 100%;
+  height: 4vw;
+  justify-content: flex-end;
+  align-items: center;
+}
+.lkOutsec3 {
+  /*font*/
+  font-size: 3vw;
+  color: #FFF;
+  /*display*/
+  display: flex;
+  width: 1vw;
+  padding: 1vw 3vw;
+  justify-content: flex-end;
+  /*cursor*/
+  cursor: pointer;
+}
+.modalsubdiv1 {
+  /*display*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.modalsubdiv1:after,.modalsubdiv1:before{
+  content:"";
+  display:table;
+  clear:both
+}
+.modalsubdiv2 {
+  /*display*/
+  display: flex;
+  width: 5vw;
+  height: 25vw;
+  padding: 5vw;
+}
+.IMmodal {
+  /*border*/
+  border-radius: 1vw;
+}
+.modalsubdiv3 {
+  /*display*/
+  position:relative;
+  display: flex;
+  width: 20vw;
+  height: 36vw;
+  margin:auto;
+  padding: 1vw 5vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  outline:0;
+  background-color: rgba(255,255,255);
+  /*border*/
+  border-radius: 2vw;
+}
+.TTmodal {
+  /*font*/
+  font-size: 30px;
+  font-weight: 900;
+  color: #0039A6;
+  /*display*/
+  width: 100%;
+}
+.TXmodal {
+  /*font*/
+  font-size: 15px;
+  /*display*/
+  position: relative;
+  width: 100%;
+  left: 1vw;
+  padding: 1vw 0;
+}
+.TXXmodal {
+  /*display*/
+  padding: 0.5vw 0;
+}
+/*Modal*/
+
 /*=====MOBILE MODE=====*/
 @media screen and (max-width: 768px) {
   /*|Main|*/
@@ -323,14 +432,14 @@ body {
   .div1sec3 {
     /*display*/
     height: 26.5vw;
-  } 
+  }
   .div1sec3::before {
     top: 290vw;
   }
   .div2sec3 {
     /*display*/
     top: 300vw;
-    left: 20vw
+    left: 36vw
   }
   .div3sec3 {
     /*display*/
@@ -376,7 +485,7 @@ body {
   .ul7sec3 {
     /*display*/
     position: relative;
-    left: 3vw;
+    left: -10vw;
   }
   .ul8sec3 {
     /*display*/
@@ -410,5 +519,118 @@ body {
     padding: 2vw;
   }
   /*|Main|*/
+
+  /*Modal*/
+.modal1 {
+  /*display*/
+  position:fixed;
+  display:none;
+  width:100%;
+  height:100%;
+  padding: 30vw 0;
+  top:0;
+  left:0;
+  overflow: auto;
+  background-color:rgb(0,0,0,0.5);
+  z-index:3;
+}
+.modaldiv1 {
+  /*display*/
+  position:relative;
+  display: flex;
+  width: 90vw;
+  height: 180vw;
+  margin:auto;
+  padding:0;
+  flex-direction: column;
+  outline:0;
+  background-color:#0039A6;
+  /*border*/
+  border-radius: 2vw;
+}
+.modaldiv2 {
+  /*display*/
+  display: flex;
+  width: 100%;
+  height: 10vw;
+  justify-content: flex-end;
+  align-items: center;
+}
+.lkOutsec3 {
+  /*font*/
+  font-size: 10vw;
+  color: #FFF;
+  /*display*/
+  display: flex;
+  width: 1vw;
+  padding: 1vw 3vw;
+  justify-content: flex-end;
+  /*cursor*/
+  cursor: pointer;
+}
+.modalsubdiv1 {
+  /*display*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.modalsubdiv1:after,.modalsubdiv1:before{
+  content:"";
+  display:table;
+  clear:both
+}
+.modalsubdiv2 {
+  /*display*/
+  display: flex;
+  width: 65vw;
+  height: 50vw;
+  padding: 5vw;
+}
+.IMmodal {
+  /*display*/
+  width: 100%;
+  height: 80vw;
+  /*border*/
+  border-radius: 1vw;
+}
+.modalsubdiv3 {
+  /*display*/
+  position:relative;
+  display: flex;
+  width: 70vw;
+  height: 90vw;
+  margin: auto;
+  padding: 5vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  outline:0;
+  background-color: rgba(255,255,255);
+  /*border*/
+  border-radius: 2vw;
+}
+.TTmodal {
+  /*font*/
+  font-size: 30px;
+  font-weight: 900;
+  color: #0039A6;
+  /*display*/
+  width: 100%;
+}
+.TXmodal {
+  /*font*/
+  font-size: 15px;
+  /*display*/
+  position: relative;
+  width: 100%;
+  left: 5vw;
+  padding: 1vw 0;
+}
+.TXXmodal {
+  /*display*/
+  padding: 0.5vw 0;
+}
+/*Modal*/
 }
 /*=====MOBILE MODE=====*/
