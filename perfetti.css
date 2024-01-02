@@ -31,7 +31,7 @@
   .sec1 {
     /*display*/
     display: flex;
-    height: 100vw;
+    height: 90vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -112,13 +112,6 @@
     width: 70%;
     left: 2vw;
   }
-  .tx4sec1 {
-    /*font*/
-    font-size: 20px;
-    text-align: justify;
-    /*display*/
-    width: 70%;
-  }
   /*|Main|*/
   
   /*=====MOBILE MODE=====*/
@@ -127,7 +120,7 @@
     .sec1 {
       /*display*/
       display: flex;
-      height: 540vw;
+      height: 500vw;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -207,13 +200,6 @@
       position: relative;
       width: 70%;
       left: 2vw;
-    }
-    .tx4sec1 {
-      /*font*/
-      font-size: 20px;
-      text-align: justify;
-      /*display*/
-      width: 70%;
     }
     /*|Main|*/
   }

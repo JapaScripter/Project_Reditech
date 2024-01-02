@@ -87,13 +87,6 @@
     /*display*/
     width: 70%;
   }
-  .tx3sec1 {
-    /*font*/
-    font-size: 20px;
-    text-align: justify;
-    /*display*/
-    width: 70%;
-  }
   /*|Main|*/
   
   /*=====MOBILE MODE=====*/
@@ -102,7 +95,7 @@
     .sec1 {
       /*display*/
       display: flex;
-      height: 350vw;
+      height: 290vw;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -152,13 +145,6 @@
       left: 2vw;
     }
     .tx2sec1 {
-      /*font*/
-      font-size: 20px;
-      text-align: justify;
-      /*display*/
-      width: 70%;
-    }
-    .tx3sec1 {
       /*font*/
       font-size: 20px;
       text-align: justify;

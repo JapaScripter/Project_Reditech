@@ -74,7 +74,47 @@
   /*=====MOBILE MODE=====*/
   @media screen and (max-width: 768px) {
     /*|Main|*/
-    
-    /*|Main|*/
+  .sec1 {
+    /*display*/
+    display: flex;
+    height: 550vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .im2sec1 {
+    /*display*/
+    width: 25vw;
+    height: auto;
+    padding: 1vw;
+  }
+  .div1sec1 {
+    /*display*/
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  .im1sec1 {
+    /*display*/
+    width: 3vw;
+  }
+  .tt1sec1 {
+    /*font*/
+    font-size: 20px;
+    font-weight: 300;
+    color: #0039A6;
+    /*display*/
+    padding: 2vw;
+  }
+  .tx1sec1 {
+    /*font*/
+    font-size: 20px;
+    text-align: justify;
+    /*display*/
+    width: 70%;
+  }
+  /*|Main|*/
   }
   /*=====MOBILE MODE=====*/
