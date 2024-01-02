@@ -74,140 +74,47 @@
   /*=====MOBILE MODE=====*/
   @media screen and (max-width: 768px) {
     /*|Main|*/
-    .divmain {
-      /*display*/
-      padding-top: 30vw;
-      padding-bottom: 2vw;
-    }
-    .immain {
-      /*display*/
-      width: 10vw;
-    }
-    .sec0 {
-      /*display*/
-      height: 650vw;
-      flex-direction: column;
-    }
-    .sec1 {
-      /*display*/
-      position: relative;
-      width: 70%;
-      height: 100vw;
-      margin: 10vw 0;
-      /*border*/
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-    .imsec1 {
-      /*display*/
-      width: 45vw;
-    }
-    .btsec1 {
-      /*font*/
-      font-size: 15px;
-      color: #FFFFFF;
-      /*display*/
-      display: flex;
-      padding: 2vw 8vw;
-      background: #1A4DAF;
-      /*border*/
-      border-radius: 1vw;
-    }
-    .sec2 {
-      /*display*/
-      position: relative;
-      width: 70%;
-      height: 100vw;
-      margin: 10vw 0;
-      /*border*/
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-    .imsec2 {
-      /*display*/
-      width: 45vw;
-    }
-    .btsec2 {
-      /*font*/
-      font-size: 15px;
-      color: #FFFFFF;
-      /*display*/
-      display: flex;
-      padding: 2vw 8vw;
-      background: #1A4DAF;
-      /*border*/
-      border-radius: 1vw;
-    }
-    .sec3 {
-      /*display*/
-      position: relative;
-      width: 70%;
-      height: 100vw;
-      margin: 10vw 0;
-      /*border*/
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-    .imsec3 {
-      /*display*/
-      width: 45vw;
-    }
-    .btsec3 {
-      /*font*/
-      font-size: 15px;
-      color: #FFFFFF;
-      /*display*/
-      display: flex;
-      padding: 2vw 8vw;
-      background: #1A4DAF;
-      /*border*/
-      border-radius: 1vw;
-    }
-    .sec4 {
-      /*display*/
-      position: relative;
-      width: 70%;
-      height: 100vw;
-      margin: 10vw 0;
-      /*border*/
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-    .imsec4 {
-      /*display*/
-      width: 45vw;
-    }
-    .btsec4 {
-      /*font*/
-      font-size: 15px;
-      color: #FFFFFF;
-      /*display*/
-      display: flex;
-      padding: 2vw 8vw;
-      background: #1A4DAF;
-      /*border*/
-      border-radius: 1vw;
-    }
-    .sec5 {
-      /*display*/
-      position: relative;
-      width: 70%;
-      height: 100vw;
-      margin: 10vw 0;
-      /*border*/
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-    .imsec5 {
-      /*display*/
-      width: 45vw;
-    }
-    .btsec5 {
-      /*font*/
-      font-size: 15px;
-      color: #FFFFFF;
-      /*display*/
-      display: flex;
-      padding: 2vw 8vw;
-      background: #1A4DAF;
-      /*border*/
-      border-radius: 1vw;
-    }
-    /*|Main|*/
+  .sec1 {
+    /*display*/
+    display: flex;
+    height: 480vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .im2sec1 {
+    /*display*/
+    width: 25vw;
+    height: auto;
+    padding: 1vw;
+  }
+  .div1sec1 {
+    /*display*/
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  .im1sec1 {
+    /*display*/
+    width: 3vw;
+  }
+  .tt1sec1 {
+    /*font*/
+    font-size: 20px;
+    font-weight: 300;
+    color: #0039A6;
+    /*display*/
+    padding: 2vw;
+  }
+  .tx1sec1 {
+    /*font*/
+    font-size: 20px;
+    text-align: justify;
+    /*display*/
+    width: 70%;
+  }
+  /*|Main|*/
   }
   /*=====MOBILE MODE=====*/

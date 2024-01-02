@@ -31,7 +31,7 @@
   .sec1 {
     /*display*/
     display: flex;
-    height: 100vw;
+    height: 90vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -111,13 +111,6 @@
     position: relative;
     width: 70%;
     left: 2vw;
-  }
-  .tx4sec1 {
-    /*font*/
-    font-size: 20px;
-    text-align: justify;
-    /*display*/
-    width: 70%;
   }
   /*|Main|*/
   
@@ -207,13 +200,6 @@
       position: relative;
       width: 70%;
       left: 2vw;
-    }
-    .tx4sec1 {
-      /*font*/
-      font-size: 20px;
-      text-align: justify;
-      /*display*/
-      width: 70%;
     }
     /*|Main|*/
   }
