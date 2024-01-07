@@ -222,7 +222,7 @@ body {
   width: 60%;
   justify-content: center;
   align-items: center;
-  opacity: 0.4;
+  opacity: 0.2;
   z-index: -1;
 }
 .div1sec4 {
@@ -240,7 +240,7 @@ body {
 }
 .tt1sec4 {
   /*font*/
-  font-size: 30px;
+  font-size: 60px;
   color: #0039A6;
   /*display*/
   padding: 0 1vw;
@@ -257,7 +257,7 @@ body {
 }
 .imTTsec4 {
   width: auto;
-  height: 2.5vw;
+  height: 3vw;
   padding: 1vw;
 }
 /*|Main|*/

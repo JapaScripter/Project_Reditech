@@ -50,6 +50,12 @@
     /*cursor*/
     cursor: pointer;
   }
+  .imlista {
+    /*display*/
+    width: 4vw;
+    height: 2vw;
+    padding: 1vw;
+  }
   .imhd {
     /*display*/
     width: 12vw;

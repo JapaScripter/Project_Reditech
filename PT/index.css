@@ -101,6 +101,10 @@
     /*cursor*/
     cursor: pointer;
   }
+  .im2sec3:hover {
+    /*display*/
+    opacity: 0.3;
+  }
   .im3sec3{
     /*display*/
     position: absolute;
@@ -113,6 +117,10 @@
     border-radius: 10vw;
     /*cursor*/
     cursor: pointer;
+  }
+  .im3sec3:hover {
+    /*display*/
+    opacity: 0.3;
   }
   .im4sec3{
     /*display*/
@@ -127,18 +135,26 @@
     /*cursor*/
     cursor: pointer;
   }
+  .im4sec3:hover {
+    /*display*/
+    opacity: 0.3;
+  }
   .im5sec3{
     /*display*/
     position: absolute;
     display: flex;
     width: 13vw;
-    bottom: 38.8vw;
+    bottom: 40.4vw;
     left: 26.4vw;
     opacity: 0.1;
     /*border*/
     border-radius: 10vw;
     /*cursor*/
     cursor: pointer;
+  }
+  .im5sec3:hover {
+    /*display*/
+    opacity: 0.3;
   }
   .div1sec3 {
     /*display*/
