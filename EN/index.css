@@ -234,6 +234,7 @@
   .ic1sec4 {
     /*display*/
     width: 3vw;
+    rotate: -90deg;
   }
   .tt1sec4 {
     /*font*/
