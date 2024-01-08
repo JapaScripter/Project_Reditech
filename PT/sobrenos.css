@@ -51,7 +51,7 @@ body {
 }
 .tt1sec1 {
   /*font*/
-  font-size: 30px;
+  font-size: 40px;
   color: #0039A6;
   /*display*/
   margin-left: 1vw;
@@ -138,13 +138,14 @@ body {
   display: flex;
   position: absolute;
   top: 82vw;
-  left: 44vw;
+  left: 38vw;
   justify-content: center;
   align-items: center;
 }
 .im2sec3 {
   /*display*/
   width: 3.5vw;
+  rotate: -90deg;
 }
 .tt1sec3 {
   /*font*/

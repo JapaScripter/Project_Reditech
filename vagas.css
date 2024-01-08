@@ -41,11 +41,13 @@ body {
   /*display*/
   width: 3vw;
   height: auto;
+  padding: 1vw;
+  rotate: 90deg;
 }
 .tt1sec1 {
   /*font*/
   font-size: 35px;
-  color: #1A4DAF;
+  color: #0039A6;
   /*display*/
   display: flex;
   position: relative;
@@ -84,45 +86,52 @@ body {
 }
 .li1sec1 {
   /*font*/
+  font-size: 1.2vw;
   color: #0039A6;
   /*display*/
   margin: 2vw;
 }
 #nome {
   /*display*/
-  width: 25vw;
+  width: 21.6vw;
+  height: 2vw;
   /*border*/
   border: 1px solid #0039A6;
   border-radius: 0.25vw;
 }
 .li2sec1 {
   /*font*/
+  font-size: 1.2vw;
   color: #0039A6;
   /*display*/
   margin: 2vw;
 }
 #email {
   /*display*/
-  width: 25vw;
+  width: 21.5vw;
+  height: 2vw;
   /*border*/
   border: 1px solid #0039A6;
   border-radius: 0.25vw;
 }
 .li3sec1 {
   /*font*/
+  font-size: 1.2vw;
   color: #0039A6;
   /*display*/
   margin: 2vw;
 }
 #telefone {
   /*display*/
-  width: 19.5vw;
+  width: 23.5vw;
+  height: 2vw;
   /*border*/
   border: 1px solid #0039A6;
   border-radius: 0.25vw;
 }
 .li4sec1 {
   /*font*/
+  font-size: 1.2vw;
   color: #0039A6;
   /*display*/
   display: flex;
@@ -154,8 +163,9 @@ body {
   /*display*/
   display: flex;
   padding: 1vw 4vw;
-  background: #1A4DAF;
+  background: #0039A6;
   /*border*/
+  border: none;
   border-radius: 0.25vw;
   /*cursor*/
   cursor: pointer;
